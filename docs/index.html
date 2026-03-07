@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnowPro – Snow Shoveling Service</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="logo">❄ SnowPro</div>
+      <h1>Snow Shoveling<br /><span class="accent">On Demand</span></h1>
+      <p class="sub">Enter your address and we'll analyze your driveway using public map data to give you an instant quote.</p>
+    </div>
+    <div class="snowflakes" aria-hidden="true">
+      <span>❄</span><span>❄</span><span>❄</span><span>❄</span><span>❄</span>
+      <span>❄</span><span>❄</span><span>❄</span><span>❄</span><span>❄</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- ── QUOTE FORM ── -->
+    <section class="card" id="quoteSection">
+      <h2>Get Your Instant Quote</h2>
+
+      <form id="quoteForm" novalidate>
+        <div class="field">
+          <label for="address">Property Address</label>
+          <input
+            type="text"
+            id="address"
+            name="address"
+            placeholder="123 Main St, Denver, CO 80202"
+            autocomplete="street-address"
+            required
+          />
+          <small>We use this to look up your driveway size and terrain slope from public sources.</small>
+        </div>
+
+        <div class="field">
+          <label for="snowDepth">Current Snow Depth <span class="unit">(inches)</span></label>
+          <div class="range-row">
+            <input type="range" id="snowDepth" name="snowDepth" min="1" max="36" value="4" step="1" />
+            <output id="snowDepthValue">4"</output>
+          </div>
+        </div>
+
+        <button type="submit" id="quoteBtn" class="btn-primary">
+          <span class="btn-text">Analyze &amp; Get Quote</span>
+          <span class="btn-spinner" hidden></span>
+        </button>
+      </form>
+
+      <div id="quoteError" class="error-box" hidden></div>
+    </section>
+
+    <!-- ── RESULTS ── -->
+    <section class="card" id="resultsSection" hidden>
+      <div class="results-header">
+        <h2>Your Quote</h2>
+        <a id="mapLink" href="#" target="_blank" rel="noopener" class="map-link">View on Map ↗</a>
+      </div>
+
+      <div id="addressDisplay" class="address-display"></div>
+
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-icon">📐</div>
+          <div class="stat-label">Est. Driveway Size</div>
+          <div class="stat-value" id="drivewaySize">—</div>
+          <div class="stat-sub" id="drivewaySub"></div>
+        </div>
+        <div class="stat">
+          <div class="stat-icon">⛰</div>
+          <div class="stat-label">Terrain Slope</div>
+          <div class="stat-value" id="terrainSlope">—</div>
+          <div class="stat-sub" id="terrainSub"></div>
+        </div>
+        <div class="stat">
+          <div class="stat-icon">🌨</div>
+          <div class="stat-label">Snow Depth</div>
+          <div class="stat-value" id="snowDepthResult">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-icon">⏱</div>
+          <div class="stat-label">Estimated Turnaround</div>
+          <div class="stat-value" id="turnaround">—</div>
+        </div>
+      </div>
+
+      <div class="price-box">
+        <div class="price-label">Estimated Price</div>
+        <div class="price-range" id="priceRange">—</div>
+        <div class="price-tier" id="priceTier"></div>
+
+        <div class="price-breakdown" id="priceBreakdown"></div>
+      </div>
+
+      <div class="data-sources">
+        <details>
+          <summary>How we calculated this</summary>
+          <ul id="sourcesList"></ul>
+        </details>
+      </div>
+
+      <button class="btn-secondary" id="bookBtn">Book This Service</button>
+      <button class="btn-ghost" id="newQuoteBtn">Get Another Quote</button>
+    </section>
+
+    <!-- ── BOOKING FORM ── -->
+    <section class="card" id="bookingSection" hidden>
+      <h2>Book Your Service</h2>
+      <div id="bookingAddress" class="address-display"></div>
+
+      <form id="bookingForm" novalidate>
+        <div class="field-row">
+          <div class="field">
+            <label for="bookName">Full Name</label>
+            <input type="text" id="bookName" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="field">
+            <label for="bookPhone">Phone <span class="optional">(optional)</span></label>
+            <input type="tel" id="bookPhone" name="phone" placeholder="(555) 867-5309" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="bookEmail">Email Address</label>
+          <input type="email" id="bookEmail" name="email" placeholder="jane@example.com" required />
+        </div>
+
+        <div class="field">
+          <label for="bookDate">Preferred Service Date</label>
+          <input type="date" id="bookDate" name="preferredDate" />
+        </div>
+
+        <div class="field">
+          <label for="bookNotes">Special Instructions <span class="optional">(optional)</span></label>
+          <textarea id="bookNotes" name="notes" rows="3" placeholder="Gate code, obstacles to avoid, etc."></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-primary" id="confirmBtn">
+            <span class="btn-text">Confirm Booking</span>
+            <span class="btn-spinner" hidden></span>
+          </button>
+          <button type="button" class="btn-ghost" id="cancelBookingBtn">Cancel</button>
+        </div>
+      </form>
+
+      <div id="bookingError" class="error-box" hidden></div>
+    </section>
+
+    <!-- ── CONFIRMATION ── -->
+    <section class="card" id="confirmationSection" hidden>
+      <div class="confirmation">
+        <div class="check-circle">✓</div>
+        <h2>You're Booked!</h2>
+        <p id="confirmMsg"></p>
+        <div class="booking-id-box">
+          Booking ID: <strong id="bookingId"></strong>
+        </div>
+        <button class="btn-primary" id="startOverBtn">Book Another Service</button>
+      </div>
+    </section>
+
+    <!-- ── HOW IT WORKS ── -->
+    <section class="how-it-works">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Enter Address</h3>
+          <p>We geocode your address using Google Maps to get precise coordinates.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Analyze Property</h3>
+          <p>We query OpenStreetMap for your building footprint and driveway data, plus Google Elevation API for terrain slope.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Instant Quote</h3>
+          <p>Our pricing engine combines driveway size, slope difficulty, and snow depth to give you a fair quote.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Book &amp; Relax</h3>
+          <p>Confirm your booking and a SnowPro team will arrive within your quoted window.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 SnowPro – Snow Shoveling Service. Property data sourced from <a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap</a> and Google Maps APIs.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
