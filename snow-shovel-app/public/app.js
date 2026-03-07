@@ -120,13 +120,20 @@
 
     // Sources
     const sources = [];
-    sources.push('Google Maps Geocoding API – address coordinates');
-    sources.push('Google Maps Elevation API – terrain slope (7-point grid sample)');
+    const isMock = data.mock === true;
+    sources.push(isMock
+      ? 'Geocoding: deterministic mock (seeded from address string)'
+      : 'Geocoding: Nominatim / OpenStreetMap – no API key required');
+    sources.push(isMock
+      ? 'Elevation: mock heuristic (latitude/longitude-based estimate)'
+      : 'Elevation: Open-Elevation API – 7-point grid sample, no API key required');
     if (property.osmDataAvailable) {
-      sources.push('OpenStreetMap / Overpass API – building footprint & driveway data');
+      sources.push(isMock
+        ? 'Property data: mock building footprint (probabilistic model)'
+        : 'OpenStreetMap Overpass API – building footprint & driveway data');
     }
     if (!property.driveywayFoundInOSM) {
-      sources.push('Driveway size estimated from US regional averages (no OSM driveway data found)');
+      sources.push('Driveway size estimated from building footprint or US regional averages');
     }
 
     document.getElementById('sourcesList').innerHTML = sources

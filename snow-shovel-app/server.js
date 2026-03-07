@@ -1,13 +1,14 @@
 require('dotenv').config();
 const express = require('express');
-const axios = require('axios');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const GOOGLE_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
+
+// Set MOCK_MODE=false in .env when real external APIs are reachable.
+const MOCK_MODE = process.env.MOCK_MODE !== 'false';
 
 app.use(cors());
 app.use(express.json());
@@ -21,70 +22,133 @@ const limiter = rateLimit({
 });
 app.use('/api/', limiter);
 
-// ── Geocoding ────────────────────────────────────────────────────────────────
-async function geocodeAddress(address) {
-  if (!GOOGLE_API_KEY) throw new Error('Google Maps API key not configured');
-
-  const url = 'https://maps.googleapis.com/maps/api/geocode/json';
-  const { data } = await axios.get(url, {
-    params: { address, key: GOOGLE_API_KEY },
-  });
-
-  if (data.status !== 'OK' || !data.results.length) {
-    throw new Error('Address not found. Please enter a valid US address.');
+// ── Deterministic seeded RNG (no deps) ───────────────────────────────────────
+// Lets us derive "realistic" but repeatable mock values from an address string.
+function seededRand(seed) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < seed.length; i++) {
+    h ^= seed.charCodeAt(i);
+    h = Math.imul(h, 0x01000193) >>> 0;
   }
-
-  const result = data.results[0];
-  const { lat, lng } = result.geometry.location;
-  const formattedAddress = result.formatted_address;
-
-  // Pull out the zip code for later use
-  const zipComponent = result.address_components.find((c) =>
-    c.types.includes('postal_code')
-  );
-  const zipCode = zipComponent ? zipComponent.short_name : null;
-
-  return { lat, lng, formattedAddress, zipCode };
+  return () => {
+    h ^= h << 13; h ^= h >> 17; h ^= h << 5;
+    return (h >>> 0) / 0xffffffff;
+  };
 }
 
-// ── Elevation / Slope ────────────────────────────────────────────────────────
-// We sample elevation at several points around the property to estimate slope.
+// ── US state → approximate center coordinates ─────────────────────────────────
+const STATE_COORDS = {
+  AL:[32.8,-86.8],AK:[64.2,-153.4],AZ:[34.3,-111.1],AR:[34.8,-92.2],
+  CA:[36.8,-119.4],CO:[39.0,-105.5],CT:[41.6,-72.7],DE:[39.0,-75.5],
+  FL:[27.8,-81.6],GA:[32.2,-83.4],HI:[20.8,-156.3],ID:[44.1,-114.5],
+  IL:[40.0,-89.2],IN:[40.3,-86.1],IA:[42.0,-93.2],KS:[38.5,-98.4],
+  KY:[37.5,-85.3],LA:[31.2,-91.8],ME:[45.3,-69.4],MD:[39.0,-76.8],
+  MA:[42.3,-71.8],MI:[43.3,-84.5],MN:[46.4,-93.1],MS:[32.7,-89.7],
+  MO:[38.5,-92.5],MT:[47.0,-110.5],NE:[41.5,-99.9],NV:[38.5,-117.1],
+  NH:[43.7,-71.6],NJ:[40.1,-74.5],NM:[34.5,-106.0],NY:[42.2,-74.9],
+  NC:[35.6,-79.4],ND:[47.5,-100.5],OH:[40.4,-82.8],OK:[35.6,-97.5],
+  OR:[43.9,-120.6],PA:[40.9,-77.8],RI:[41.7,-71.5],SC:[33.9,-80.9],
+  SD:[44.4,-100.2],TN:[35.9,-86.7],TX:[31.5,-99.3],UT:[39.3,-111.1],
+  VT:[44.0,-72.7],VA:[37.8,-78.2],WA:[47.4,-120.5],WV:[38.6,-80.6],
+  WI:[44.3,-89.8],WY:[43.0,-107.6],DC:[38.9,-77.0],
+};
+
+// ── Mock Geocoding ────────────────────────────────────────────────────────────
+async function geocodeAddress(address) {
+  if (!MOCK_MODE) {
+    const axios = require('axios');
+    const { data } = await axios.get('https://nominatim.openstreetmap.org/search', {
+      params: { q: address, format: 'json', addressdetails: 1, limit: 1 },
+      headers: { 'User-Agent': 'SnowProApp/1.0 (snow-shovel-service)' },
+      timeout: 10000,
+    });
+    if (!data.length) throw new Error('Address not found. Please enter a valid address.');
+    const r = data[0];
+    return {
+      lat: parseFloat(r.lat), lng: parseFloat(r.lon),
+      formattedAddress: r.display_name,
+      zipCode: r.address?.postcode || null,
+    };
+  }
+
+  // ── Mock path ──
+  const norm = address.trim().toUpperCase();
+
+  // Detect state abbreviation (e.g. ", CO " or " CO 80202")
+  const stateMatch = norm.match(/,?\s+([A-Z]{2})[\s,]/);
+  const stateCode = stateMatch ? stateMatch[1] : null;
+  const base = stateCode && STATE_COORDS[stateCode]
+    ? STATE_COORDS[stateCode]
+    : [40.7128, -74.0060]; // default: NYC
+
+  // Sprinkle a small deterministic offset so different streets differ
+  const rng = seededRand(norm);
+  const lat = +(base[0] + (rng() - 0.5) * 0.08).toFixed(6);
+  const lng = +(base[1] + (rng() - 0.5) * 0.08).toFixed(6);
+
+  // Build a cleaned-up display address
+  const zipMatch = address.match(/\b\d{5}(-\d{4})?\b/);
+  const formattedAddress = address.trim().replace(/\s+/g, ' ') +
+    (zipMatch ? '' : (stateCode ? '' : ', USA'));
+
+  return { lat, lng, formattedAddress, zipCode: zipMatch ? zipMatch[0] : null };
+}
+
+// ── Elevation / Slope ─────────────────────────────────────────────────────────
 async function getElevationData(lat, lng) {
-  if (!GOOGLE_API_KEY) throw new Error('Google Maps API key not configured');
+  if (!MOCK_MODE) {
+    const axios = require('axios');
+    const offsetDeg = 0.0003;
+    const points = [
+      { latitude: lat,             longitude: lng },
+      { latitude: lat + offsetDeg, longitude: lng },
+      { latitude: lat - offsetDeg, longitude: lng },
+      { latitude: lat,             longitude: lng + offsetDeg },
+      { latitude: lat,             longitude: lng - offsetDeg },
+      { latitude: lat + offsetDeg, longitude: lng + offsetDeg },
+      { latitude: lat - offsetDeg, longitude: lng - offsetDeg },
+    ];
+    const { data } = await axios.post(
+      'https://api.open-elevation.com/api/v1/lookup',
+      { locations: points },
+      { headers: { 'Content-Type': 'application/json' }, timeout: 15000 }
+    );
+    if (!data.results?.length) throw new Error('Unable to retrieve elevation data');
+    const elevations = data.results.map((r) => r.elevation);
+    const minElev = Math.min(...elevations);
+    const maxElev = Math.max(...elevations);
+    const elevDiff = maxElev - minElev;
+    const spanMeters = 0.0003 * 111000 * Math.sqrt(2);
+    const slopePct = (elevDiff / spanMeters) * 100;
+    return {
+      centerElevation: elevations[0].toFixed(1),
+      minElevation: minElev.toFixed(1),
+      maxElevation: maxElev.toFixed(1),
+      elevationChange: elevDiff.toFixed(1),
+      slopePercent: slopePct.toFixed(1),
+      slopeCategory: categorizeSLope(slopePct),
+    };
+  }
 
-  // Sample a 30m × 30m grid (roughly one property width) in cardinal directions
-  const offsetDeg = 0.0003; // ~33 meters
-  const locations = [
-    { lat, lng },                                    // center
-    { lat: lat + offsetDeg, lng },                   // north
-    { lat: lat - offsetDeg, lng },                   // south
-    { lat, lng: lng + offsetDeg },                   // east
-    { lat, lng: lng - offsetDeg },                   // west
-    { lat: lat + offsetDeg, lng: lng + offsetDeg },  // NE
-    { lat: lat - offsetDeg, lng: lng - offsetDeg },  // SW
-  ];
+  // ── Mock path: derive plausible elevation from lat/lng ──
+  // Mountains in the west, flat in the midwest/east — rough heuristic
+  const rng = seededRand(`${lat.toFixed(4)},${lng.toFixed(4)}`);
 
-  const locString = locations.map((l) => `${l.lat},${l.lng}`).join('|');
-  const url = 'https://maps.googleapis.com/maps/api/elevation/json';
-  const { data } = await axios.get(url, {
-    params: { locations: locString, key: GOOGLE_API_KEY },
-  });
+  // Base elevation heuristic: western US tends to be higher
+  let baseElev = 300; // meters
+  if (lng < -104) baseElev = 800 + (rng() * 2000);       // Rockies / west
+  else if (lng < -90) baseElev = 200 + (rng() * 400);    // midwest
+  else baseElev = 50 + (rng() * 300);                    // east
 
-  if (data.status !== 'OK') throw new Error('Unable to retrieve elevation data');
-
-  const elevations = data.results.map((r) => r.elevation);
-  const minElev = Math.min(...elevations);
-  const maxElev = Math.max(...elevations);
-  const elevDiff = maxElev - minElev; // meters
-
-  // Approximate slope as rise/run across the sampled span (~66 m diagonal)
-  const spanMeters = offsetDeg * 111000 * Math.sqrt(2);
+  // Random elevation diff across the 7-point grid (0–12 m typical residential)
+  const elevDiff = rng() * 12;
+  const spanMeters = 0.0003 * 111000 * Math.sqrt(2);
   const slopePct = (elevDiff / spanMeters) * 100;
 
   return {
-    centerElevation: elevations[0].toFixed(1),
-    minElevation: minElev.toFixed(1),
-    maxElevation: maxElev.toFixed(1),
+    centerElevation: baseElev.toFixed(1),
+    minElevation: (baseElev - elevDiff * 0.3).toFixed(1),
+    maxElevation: (baseElev + elevDiff * 0.7).toFixed(1),
     elevationChange: elevDiff.toFixed(1),
     slopePercent: slopePct.toFixed(1),
     slopeCategory: categorizeSLope(slopePct),
@@ -101,46 +165,55 @@ function categorizeSLope(pct) {
 
 // ── OpenStreetMap Property/Lot Data ──────────────────────────────────────────
 async function getOsmPropertyData(lat, lng) {
-  // Query Overpass API for nearby building footprint and parking/driveway tags
-  const delta = 0.0005; // ~55 m search box
-  const bbox = `${lat - delta},${lng - delta},${lat + delta},${lng + delta}`;
-  const query = `
-    [out:json][timeout:10];
-    (
-      way["building"](${bbox});
-      way["amenity"="parking"](${bbox});
-      way["service"="driveway"](${bbox});
-      way["highway"="service"](${bbox});
-    );
-    out geom;
-  `;
-
-  try {
-    const { data } = await axios.post(
-      'https://overpass-api.de/api/interpreter',
-      `data=${encodeURIComponent(query)}`,
-      { headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, timeout: 12000 }
-    );
-
-    let buildingArea = null;
-    let drivewayfound = false;
-
-    for (const element of data.elements || []) {
-      if (element.tags?.building && element.geometry) {
-        buildingArea = approximatePolygonArea(element.geometry);
+  if (!MOCK_MODE) {
+    const axios = require('axios');
+    const delta = 0.0005;
+    const bbox = `${lat - delta},${lng - delta},${lat + delta},${lng + delta}`;
+    const query = `
+      [out:json][timeout:10];
+      (
+        way["building"](${bbox});
+        way["amenity"="parking"](${bbox});
+        way["service"="driveway"](${bbox});
+        way["highway"="service"](${bbox});
+      );
+      out geom;
+    `;
+    try {
+      const { data } = await axios.post(
+        'https://overpass-api.de/api/interpreter',
+        `data=${encodeURIComponent(query)}`,
+        { headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, timeout: 12000 }
+      );
+      let buildingArea = null;
+      let drivewayfound = false;
+      for (const element of data.elements || []) {
+        if (element.tags?.building && element.geometry) {
+          buildingArea = approximatePolygonArea(element.geometry);
+        }
+        if (element.tags?.service === 'driveway' || element.tags?.amenity === 'parking') {
+          drivewayfound = true;
+        }
       }
-      if (
-        element.tags?.service === 'driveway' ||
-        element.tags?.amenity === 'parking'
-      ) {
-        drivewayfound = true;
-      }
+      return { buildingArea, drivewayfound, osmDataAvailable: true };
+    } catch {
+      return { buildingArea: null, drivewayfound: false, osmDataAvailable: false };
     }
-
-    return { buildingArea, drivewayfound, osmDataAvailable: true };
-  } catch {
-    return { buildingArea: null, drivewayfound: false, osmDataAvailable: false };
   }
+
+  // ── Mock path: generate realistic building footprint ──
+  const rng = seededRand(`osm:${lat.toFixed(5)},${lng.toFixed(5)}`);
+
+  // 70% chance we "find" a building footprint (suburban single-family)
+  if (rng() < 0.70) {
+    // Typical US single-family home: 1200–2800 ft² footprint (111–260 m²)
+    const buildingArea = 111 + rng() * 149; // m²
+    const drivewayfound = rng() < 0.45;     // 45% chance OSM has a driveway way
+    return { buildingArea, drivewayfound, osmDataAvailable: true };
+  }
+
+  // 30% — no building found (new construction, rural lot, etc.)
+  return { buildingArea: null, drivewayfound: false, osmDataAvailable: true };
 }
 
 // Shoelace formula for approximate polygon area (meters²) from lat/lng nodes
@@ -257,6 +330,7 @@ app.post('/api/quote', async (req, res) => {
 
     res.json({
       success: true,
+      mock: MOCK_MODE,
       address: geocodeResult.formattedAddress,
       coordinates: { lat, lng },
       property: {
@@ -273,7 +347,7 @@ app.post('/api/quote', async (req, res) => {
         slopeCategory: elevationInfo.slopeCategory.label,
       },
       quote,
-      mapUrl: `https://www.google.com/maps/@${lat},${lng},19z/data=!3m1!1e3`,
+      mapUrl: `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lng}#map=19/${lat}/${lng}&layers=C`,
     });
   } catch (err) {
     console.error('Quote error:', err.message);
@@ -301,8 +375,10 @@ app.post('/api/book', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Snow Shovel App running at http://localhost:${PORT}`);
-  if (!GOOGLE_API_KEY) {
-    console.warn('⚠  GOOGLE_MAPS_API_KEY not set – geocoding and elevation will fail.');
+  console.log(`\nSnowPro app running → http://localhost:${PORT}`);
+  if (MOCK_MODE) {
+    console.log('Mode: MOCK  (no API keys needed – set MOCK_MODE=false in .env for live data)');
+  } else {
+    console.log('Mode: LIVE  (Nominatim geocoding + Open-Elevation + OSM Overpass)');
   }
 });
