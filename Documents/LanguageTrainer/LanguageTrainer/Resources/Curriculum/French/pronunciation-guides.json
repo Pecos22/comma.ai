@@ -1,0 +1,237 @@
+[
+  {
+    "sound_id": "fr_uvular_r",
+    "language": "french",
+    "ipa_symbol": "ʁ",
+    "display_name": "The French R",
+    "description": "The French R is produced in the back of the throat (uvular). It sounds like a gentle gargle, NOT like an English R or a Spanish rolled R. It's one of the most distinctive French sounds.",
+    "how_to_produce": [
+      "Open your mouth slightly",
+      "Keep your tongue tip DOWN behind your lower teeth",
+      "Raise the back of your tongue toward your soft palate (the back roof of your mouth)",
+      "Push air through the narrow gap — it should vibrate gently",
+      "Think of it like a very soft gargle or the 'ch' in Scottish 'loch' but voiced"
+    ],
+    "common_mistakes": [
+      "Using an English R (tongue tip curled up) — keep tongue tip DOWN",
+      "Rolling the R like Spanish — this is a completely different sound",
+      "Making it too harsh or guttural — it should be soft and smooth",
+      "Dropping the R entirely — it should always be audible"
+    ],
+    "example_words": [
+      { "text": "rouge", "ipa": "ʁuʒ", "meaning": "red" },
+      { "text": "merci", "ipa": "mɛʁsi", "meaning": "thank you" },
+      { "text": "restaurant", "ipa": "ʁɛstoʁɑ̃", "meaning": "restaurant" },
+      { "text": "rue", "ipa": "ʁy", "meaning": "street" }
+    ],
+    "practice_pairs": [
+      { "word1": "rue", "word2": "lu", "explanation": "R vs L — feel the difference: R is in the throat, L is with the tongue tip" },
+      { "word1": "roi", "word2": "loi", "explanation": "king vs law — same contrast, R (throat) vs L (tongue)" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "fr_nasal_vowels",
+    "language": "french",
+    "ipa_symbol": "ɑ̃ ɛ̃ ɔ̃ œ̃",
+    "display_name": "Nasal Vowels",
+    "description": "French has four nasal vowels — vowel sounds where air flows through both the mouth AND the nose. They're the sounds that make French sound distinctly French. English doesn't have true nasal vowels.",
+    "how_to_produce": [
+      "Start with a regular vowel sound (ah, eh, oh)",
+      "Lower your soft palate to let air flow through your nose at the same time",
+      "DO NOT touch your tongue to the roof of your mouth — the N/M is NOT pronounced as a consonant",
+      "Think of it as the vowel 'humming' through your nose",
+      "Test: pinch your nose — if the sound changes, you're nasalizing correctly"
+    ],
+    "common_mistakes": [
+      "Pronouncing the N or M as a full consonant — 'bon' is NOT 'bonn', it's a nasalized 'boh'",
+      "Not nasalizing at all — just saying 'bo' without the nasal quality",
+      "Confusing the different nasal vowels — each has a distinct mouth shape"
+    ],
+    "example_words": [
+      { "text": "bonjour", "ipa": "bɔ̃ʒuʁ", "meaning": "hello (ɔ̃ — nasal O)" },
+      { "text": "bien", "ipa": "bjɛ̃", "meaning": "well/good (ɛ̃ — nasal E)" },
+      { "text": "enfant", "ipa": "ɑ̃fɑ̃", "meaning": "child (ɑ̃ — nasal A)" },
+      { "text": "un", "ipa": "œ̃", "meaning": "one/a (œ̃ — nasal EU)" }
+    ],
+    "practice_pairs": [
+      { "word1": "bon", "word2": "bonne", "explanation": "bon (nasal, no N sound) vs bonne (N is pronounced) — masculine vs feminine" },
+      { "word1": "vin", "word2": "vaine", "explanation": "vin (nasal ɛ̃) vs vaine (eh + n sound) — different meanings entirely" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "fr_u_vs_ou",
+    "language": "french",
+    "ipa_symbol": "y / u",
+    "display_name": "U vs OU",
+    "description": "French 'u' (written u) and 'ou' (written ou) are two different vowels that English speakers often confuse. French U is made with lips rounded AND tongue pushed forward. OU is like English 'oo'. Mixing them up changes word meanings.",
+    "how_to_produce": [
+      "For French U (y): Say 'ee' as in 'see', then round your lips WITHOUT moving your tongue",
+      "Your tongue should be at the front of your mouth, lips tightly rounded",
+      "For OU (u): This is the easy one — say 'oo' as in 'food'",
+      "The key difference: tongue FRONT for U, tongue BACK for OU"
+    ],
+    "common_mistakes": [
+      "Saying 'oo' for both — this makes 'rue' (street) sound like 'roue' (wheel)",
+      "Not rounding the lips enough for U",
+      "Moving the tongue back when trying to say U — keep it forward"
+    ],
+    "example_words": [
+      { "text": "rue", "ipa": "ʁy", "meaning": "street (French U)" },
+      { "text": "roue", "ipa": "ʁu", "meaning": "wheel (OU)" },
+      { "text": "tu", "ipa": "ty", "meaning": "you (French U)" },
+      { "text": "tout", "ipa": "tu", "meaning": "all/everything (OU)" }
+    ],
+    "practice_pairs": [
+      { "word1": "rue", "word2": "roue", "explanation": "street vs wheel — French U vs OU. Listen for the tongue position difference" },
+      { "word1": "dessus", "word2": "dessous", "explanation": "above vs below — U (front tongue) vs OU (back tongue)" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "fr_silent_letters",
+    "language": "french",
+    "ipa_symbol": "—",
+    "display_name": "Silent Letters",
+    "description": "French words are full of letters that aren't pronounced, especially at the end. Most final consonants (S, T, D, X, Z, P) are silent. This is one of the biggest adjustments for English speakers.",
+    "how_to_produce": [
+      "General rule: final consonants are silent (petit, grand, vous, beaucoup)",
+      "Exceptions: C, R, F, L are usually pronounced at the end (CaReFuL mnemonic)",
+      "Silent E at the end: 'table', 'chose' — the E just opens the preceding consonant",
+      "Double letters often simplify: 'appelle' has two P's but they sound like one"
+    ],
+    "common_mistakes": [
+      "Pronouncing every letter — 'petit' is 'puh-TEE' not 'puh-TEET'",
+      "Always dropping final R — 'bonjour' DOES end with R (it's in the CaReFuL exception list)",
+      "Ignoring liaison — sometimes those silent finals DO come alive before vowels"
+    ],
+    "example_words": [
+      { "text": "petit", "ipa": "pəti", "meaning": "small (silent T)" },
+      { "text": "beaucoup", "ipa": "boku", "meaning": "a lot (silent P)" },
+      { "text": "chocolat", "ipa": "ʃɔkɔla", "meaning": "chocolate (silent T)" },
+      { "text": "heureux", "ipa": "øʁø", "meaning": "happy (silent X)" }
+    ],
+    "practice_pairs": [
+      { "word1": "petit", "word2": "petite", "explanation": "The T is silent in 'petit' (masculine) but pronounced in 'petite' (feminine)" },
+      { "word1": "grand", "word2": "grande", "explanation": "The D is silent in 'grand' but pronounced in 'grande'" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "fr_liaison",
+    "language": "french",
+    "ipa_symbol": "‿",
+    "display_name": "Liaison",
+    "description": "Liaison is when a normally silent final consonant is pronounced because the next word starts with a vowel. It creates smooth, connected speech and is essential to sounding natural in French.",
+    "how_to_produce": [
+      "When a word ending in a silent consonant is followed by a word starting with a vowel, pronounce that consonant",
+      "S and X become Z in liaison: 'les‿amis' → 'lez-ah-MEE'",
+      "D becomes T: 'grand‿ami' → 'grahn-tah-MEE'",
+      "N stays N: 'bon‿appétit' → 'boh-nah-pay-TEE'",
+      "Flow the linked consonant into the next word smoothly — no pause"
+    ],
+    "common_mistakes": [
+      "Pausing between words instead of flowing — liaison should be seamless",
+      "Making liaison where it shouldn't happen (e.g., after 'et' — never liaison after 'et')",
+      "Keeping the original consonant sound — remember S→Z, D→T in liaison"
+    ],
+    "example_words": [
+      { "text": "les amis", "ipa": "lez‿ami", "meaning": "the friends (S→Z)" },
+      { "text": "vous avez", "ipa": "vuz‿ave", "meaning": "you have (S→Z)" },
+      { "text": "c'est un", "ipa": "sɛt‿œ̃", "meaning": "it's a (T links)" },
+      { "text": "mon ami", "ipa": "mɔn‿ami", "meaning": "my friend (N links)" }
+    ],
+    "practice_pairs": [
+      { "word1": "les amis", "word2": "les garçons", "explanation": "Liaison happens before vowel (amis) but NOT before consonant (garçons)" },
+      { "word1": "un ami", "word2": "un garçon", "explanation": "N links to vowel in 'un ami' but stays silent before 'garçon'" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "fr_e_acute_vs_grave",
+    "language": "french",
+    "ipa_symbol": "e / ɛ",
+    "display_name": "É vs È",
+    "description": "French has two distinct E sounds: É (closed, like 'ay') and È (open, like 'eh'). The accent marks tell you which one to use. Getting them right improves comprehension and makes you sound more natural.",
+    "how_to_produce": [
+      "É (closed E): Smile slightly, tongue high and forward. Say 'ay' as in 'say' but shorter",
+      "È (open E): Open mouth more, tongue lower. Say 'eh' as in 'bed'",
+      "É often appears at word endings (-é, -er, -ez): parlé, parler, parlez",
+      "È often appears in closed syllables or with grave accent: père, mère, crème"
+    ],
+    "common_mistakes": [
+      "Using the same E sound for both — French speakers DO hear the difference",
+      "Confusing the accent marks: é (closed, 'ay') vs è (open, 'eh')",
+      "Over-pronouncing É as a diphthong 'ay-ee' — keep it short and pure"
+    ],
+    "example_words": [
+      { "text": "été", "ipa": "ete", "meaning": "summer (closed É)" },
+      { "text": "père", "ipa": "pɛʁ", "meaning": "father (open È)" },
+      { "text": "café", "ipa": "kafe", "meaning": "coffee (closed É)" },
+      { "text": "crème", "ipa": "kʁɛm", "meaning": "cream (open È)" }
+    ],
+    "practice_pairs": [
+      { "word1": "été", "word2": "était", "explanation": "summer (closed É) vs was (open È) — listen for mouth openness" },
+      { "word1": "les", "word2": "lait", "explanation": "the (closed E) vs milk (open E) — subtle but meaningful" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "fr_h_aspire",
+    "language": "french",
+    "ipa_symbol": "—",
+    "display_name": "H aspiré vs H muet",
+    "description": "French H is always silent — never pronounced. But there are two types: H muet (mute H, allows liaison and elision) and H aspiré (aspirated H, blocks liaison and elision). You must memorize which words have which type.",
+    "how_to_produce": [
+      "H muet (most H words): Treat as if the H isn't there — l'hôtel, l'homme, l'heure",
+      "H aspiré (some H words): Keep the article separate — le haricot, la honte, le héros",
+      "Neither type is actually pronounced — the difference is about what happens to the words BEFORE them",
+      "H aspiré words are marked in dictionaries with an asterisk or other symbol"
+    ],
+    "common_mistakes": [
+      "Actually pronouncing the H — French H is ALWAYS silent",
+      "Eliding before H aspiré — saying 'l'haricot' instead of 'le haricot'",
+      "Not eliding before H muet — saying 'le hôtel' instead of 'l'hôtel'"
+    ],
+    "example_words": [
+      { "text": "l'hôtel", "ipa": "lotɛl", "meaning": "the hotel (H muet — elision)" },
+      { "text": "le héros", "ipa": "lə eʁo", "meaning": "the hero (H aspiré — no elision)" },
+      { "text": "l'homme", "ipa": "lɔm", "meaning": "the man (H muet — elision)" },
+      { "text": "le haricot", "ipa": "lə aʁiko", "meaning": "the bean (H aspiré — no elision)" }
+    ],
+    "practice_pairs": [
+      { "word1": "l'hôtel", "word2": "le héros", "explanation": "H muet (elision: l'hôtel) vs H aspiré (no elision: le héros)" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "fr_en_vs_in",
+    "language": "french",
+    "ipa_symbol": "ɑ̃ / ɛ̃",
+    "display_name": "EN/AN vs IN/AIN",
+    "description": "French has two nasal vowels that English speakers often confuse: EN/AN (ɑ̃, like a nasalized 'ah') and IN/AIN (ɛ̃, like a nasalized 'eh'). They appear in many common words and mixing them up can cause confusion.",
+    "how_to_produce": [
+      "EN/AN (ɑ̃): Open mouth wide, say 'ah' through your nose — enfant, dans, encore",
+      "IN/AIN (ɛ̃): Spread lips slightly, say 'eh' through your nose — vin, pain, bien",
+      "The mouth shape is the key difference: wide open (ɑ̃) vs slightly spread (ɛ̃)",
+      "Both spellings EN/AN make the same sound (ɑ̃). Both IN/AIN/EIN make the same sound (ɛ̃)"
+    ],
+    "common_mistakes": [
+      "Using the same nasal for both — they ARE different sounds",
+      "Not opening the mouth enough for EN/AN — it needs a wider opening",
+      "Pronouncing the N — remember these are nasal vowels, not vowel+N"
+    ],
+    "example_words": [
+      { "text": "enfant", "ipa": "ɑ̃fɑ̃", "meaning": "child (EN = ɑ̃)" },
+      { "text": "vin", "ipa": "vɛ̃", "meaning": "wine (IN = ɛ̃)" },
+      { "text": "dans", "ipa": "dɑ̃", "meaning": "in (AN = ɑ̃)" },
+      { "text": "pain", "ipa": "pɛ̃", "meaning": "bread (AIN = ɛ̃)" }
+    ],
+    "practice_pairs": [
+      { "word1": "vent", "word2": "vin", "explanation": "wind (ɑ̃) vs wine (ɛ̃) — open mouth for vent, spread for vin" },
+      { "word1": "lent", "word2": "lin", "explanation": "slow (ɑ̃) vs linen (ɛ̃) — same contrast, different words" }
+    ],
+    "audio_demo_rate": 0.3
+  }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "sound_id": "it_rolled_r",
+    "language": "italian",
+    "ipa_symbol": "r",
+    "display_name": "Rolled R",
+    "description": "The Italian R is a tongue-tip trill — the tip of your tongue vibrates against the ridge behind your upper teeth. It's completely different from both the English R and the French R.",
+    "how_to_produce": [
+      "Place the tip of your tongue lightly against the alveolar ridge (the bumpy area just behind your upper front teeth)",
+      "Push air over your tongue tip — it should vibrate/flutter",
+      "Start by practicing 'ddddd' rapidly — your tongue is in the right position",
+      "Try saying 'butter' or 'ladder' quickly in American English — that tap is close to a single R",
+      "For a full trill, relax your tongue tip and let air flow — tension is the enemy"
+    ],
+    "common_mistakes": [
+      "Using an English R (tongue curled back) — Italian R is at the FRONT of the mouth",
+      "Using a French R (back of throat) — Italian R is a tongue TIP sound",
+      "Tensing the tongue too much — the trill requires relaxation",
+      "Not distinguishing single R from double RR — double is longer and more emphatic"
+    ],
+    "example_words": [
+      { "text": "Roma", "ipa": "ˈroma", "meaning": "Rome" },
+      { "text": "arrivederci", "ipa": "arriˈvedertʃi", "meaning": "goodbye" },
+      { "text": "grazie", "ipa": "ˈɡrattsje", "meaning": "thank you" },
+      { "text": "birra", "ipa": "ˈbirra", "meaning": "beer (double R)" }
+    ],
+    "practice_pairs": [
+      { "word1": "caro", "word2": "carro", "explanation": "dear vs cart — single R (one tap) vs double RR (longer trill). The double R changes meaning!" },
+      { "word1": "sera", "word2": "serra", "explanation": "evening vs greenhouse — another single vs double R contrast" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "it_double_consonants",
+    "language": "italian",
+    "ipa_symbol": "ː",
+    "display_name": "Double Consonants",
+    "description": "In Italian, double consonants are pronounced LONGER than single ones — and this changes word meanings. 'Pena' (pain) vs 'penna' (pen) are completely different words. This is one of the most important Italian pronunciation features.",
+    "how_to_produce": [
+      "Hold the consonant sound noticeably longer than a single consonant",
+      "For stops (pp, tt, kk, bb, dd, gg): hold the closure, then release",
+      "For continuants (ss, ff, mm, nn, ll, rr): simply extend the sound",
+      "The vowel BEFORE a double consonant is slightly shorter",
+      "Think of it as 'dwelling' on the consonant before releasing it"
+    ],
+    "common_mistakes": [
+      "Treating double and single consonants the same — Italians hear a big difference",
+      "Saying the consonant twice with a gap — it should be one continuous longer sound",
+      "Not shortening the vowel before the double consonant"
+    ],
+    "example_words": [
+      { "text": "penna", "ipa": "ˈpenna", "meaning": "pen (double N)" },
+      { "text": "pizza", "ipa": "ˈpittsa", "meaning": "pizza (double Z)" },
+      { "text": "cappuccino", "ipa": "kapputˈtʃino", "meaning": "cappuccino (double P, double C)" },
+      { "text": "bellissimo", "ipa": "belˈlissimo", "meaning": "very beautiful (double L, double S)" }
+    ],
+    "practice_pairs": [
+      { "word1": "pena", "word2": "penna", "explanation": "pain vs pen — single N vs double NN. Hold the N longer in 'penna'" },
+      { "word1": "casa", "word2": "cassa", "explanation": "house vs cash register — single S vs double SS. The double S is voiceless and longer" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "it_gl_sound",
+    "language": "italian",
+    "ipa_symbol": "ʎ",
+    "display_name": "GL Sound",
+    "description": "The Italian GL (before I) makes a sound like 'ly' in 'million' — a palatal lateral. The tongue presses flat against the hard palate. This appears in many common Italian words like 'famiglia', 'figlio', and 'aglio'.",
+    "how_to_produce": [
+      "Press the flat part of your tongue against the hard palate (roof of mouth)",
+      "Let air flow around the sides of your tongue",
+      "It sounds like 'ly' in English 'million' or 'billion'",
+      "Practice: say 'million' slowly, isolate the 'lli' sound in the middle",
+      "The I after GL is part of the sound — 'gli' is one unit, not 'g-l-i'"
+    ],
+    "common_mistakes": [
+      "Saying 'gl' as two separate sounds — it's ONE sound, a palatal lateral",
+      "Saying 'glee' — the G is not pronounced as a separate hard G",
+      "Skipping it and just saying 'L' — 'figlio' is NOT 'filio'"
+    ],
+    "example_words": [
+      { "text": "famiglia", "ipa": "faˈmiʎʎa", "meaning": "family" },
+      { "text": "figlio", "ipa": "ˈfiʎʎo", "meaning": "son" },
+      { "text": "aglio", "ipa": "ˈaʎʎo", "meaning": "garlic" },
+      { "text": "bottiglia", "ipa": "botˈtiʎʎa", "meaning": "bottle" }
+    ],
+    "practice_pairs": [
+      { "word1": "figlio", "word2": "filo", "explanation": "son (GL sound) vs thread (regular L) — the GL is a distinct palatal sound" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "it_gn_sound",
+    "language": "italian",
+    "ipa_symbol": "ɲ",
+    "display_name": "GN Sound",
+    "description": "Italian GN makes a 'ny' sound, like the 'ny' in 'canyon' or the Spanish ñ. The tongue presses against the hard palate. Found in words like 'gnocchi', 'bagno', and 'ognuno'.",
+    "how_to_produce": [
+      "Press the middle of your tongue against the hard palate",
+      "It's like saying N and Y simultaneously",
+      "Think: 'canyon', 'onion', 'lasagna' — the NY sound in these English words",
+      "The G is not pronounced separately — GN is one unit",
+      "Practice: say 'onion' slowly, the 'ni' part is very close to Italian GN"
+    ],
+    "common_mistakes": [
+      "Pronouncing G and N separately — 'gnocchi' is NOT 'g-nocchi'",
+      "Saying just N — missing the palatal (Y-like) quality",
+      "Over-emphasizing the Y sound after the N"
+    ],
+    "example_words": [
+      { "text": "gnocchi", "ipa": "ˈɲɔkki", "meaning": "gnocchi (potato dumplings)" },
+      { "text": "bagno", "ipa": "ˈbaɲɲo", "meaning": "bathroom" },
+      { "text": "lasagna", "ipa": "laˈzaɲɲa", "meaning": "lasagna" },
+      { "text": "cognome", "ipa": "koɲˈɲome", "meaning": "surname" }
+    ],
+    "practice_pairs": [
+      { "word1": "bagno", "word2": "bano", "explanation": "bathroom (GN/ny sound) vs a non-word — the GN gives it the palatal quality" },
+      { "word1": "sogno", "word2": "sono", "explanation": "dream (GN) vs I am (N) — palatal vs regular N" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "it_sc_sound",
+    "language": "italian",
+    "ipa_symbol": "ʃ",
+    "display_name": "SC before E/I",
+    "description": "In Italian, SC before E or I makes a 'sh' sound (like English 'ship'). But SC before A, O, or U makes a 'sk' sound (like English 'ski'). The same two letters, completely different sounds depending on what follows.",
+    "how_to_produce": [
+      "SC + E or I = 'sh' sound (ʃ): pesce, scienza, uscire",
+      "SC + A, O, or U = 'sk' sound: scala, scuola, scopo",
+      "For the 'sh' sound: tongue near the palate, air pushes through a wide channel",
+      "If you need the 'sk' sound before E/I, Italian adds an H: 'sche', 'schi' = 'skay', 'skee'"
+    ],
+    "common_mistakes": [
+      "Always saying 'sk' regardless of vowel — 'pesce' is 'PEH-shay' not 'PEH-skay'",
+      "Using English 'sh' for SCH — 'schiena' is 'SKYEH-nah' (sk), not 'SHYEH-nah'",
+      "Forgetting the rule with words like 'uscita' — SC before I = 'sh'"
+    ],
+    "example_words": [
+      { "text": "pesce", "ipa": "ˈpeʃʃe", "meaning": "fish (SC+E = sh)" },
+      { "text": "scienza", "ipa": "ˈʃɛntsa", "meaning": "science (SC+I = sh)" },
+      { "text": "uscita", "ipa": "uˈʃita", "meaning": "exit (SC+I = sh)" },
+      { "text": "scuola", "ipa": "ˈskwɔla", "meaning": "school (SC+U = sk)" }
+    ],
+    "practice_pairs": [
+      { "word1": "scena", "word2": "schema", "explanation": "scene (SC+E = sh sound) vs scheme (SCH+E = sk sound) — the H changes everything" },
+      { "word1": "scivolare", "word2": "schiavo", "explanation": "to slip (SC+I = sh) vs slave (SCH+I = sk) — same rule" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "it_c_sounds",
+    "language": "italian",
+    "ipa_symbol": "tʃ / k",
+    "display_name": "C and CH Sounds",
+    "description": "Italian C changes pronunciation based on what follows: before E or I it's 'ch' (like 'church'). Before A, O, U it's 'k' (like 'cat'). Adding H before E/I makes it hard: CHE = 'kay', CHI = 'kee'.",
+    "how_to_produce": [
+      "C + E or I = 'ch' sound (tʃ): cena, cinema, dolce",
+      "C + A, O, U = 'k' sound: casa, come, cura",
+      "CH + E or I = hard 'k' sound: che, chi, perché",
+      "The H is silent — it just signals 'keep the C hard'",
+      "G follows the same pattern: GE/GI = 'j', GA/GO/GU = hard G, GHE/GHI = hard G"
+    ],
+    "common_mistakes": [
+      "Using English 'see' for Italian CI — it's 'chee' not 'see' (ciao = 'chow')",
+      "Saying 'ch' for CHE — it's 'kay' (perché = 'pair-KAY')",
+      "Forgetting that 'ciao' starts with a 'ch' sound, not a 'k' or 's'"
+    ],
+    "example_words": [
+      { "text": "cena", "ipa": "ˈtʃena", "meaning": "dinner (C+E = ch)" },
+      { "text": "che", "ipa": "ke", "meaning": "what/that (CH+E = k)" },
+      { "text": "ciao", "ipa": "tʃao", "meaning": "hello/bye (C+I = ch)" },
+      { "text": "chiave", "ipa": "ˈkjave", "meaning": "key (CH+I = k)" }
+    ],
+    "practice_pairs": [
+      { "word1": "cena", "word2": "catena", "explanation": "dinner (ch sound before E) vs chain (k sound before A) — same letter C, different sounds" },
+      { "word1": "cento", "word2": "che", "explanation": "hundred (ch before E) vs what (k before E, because of H)" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "it_open_closed_vowels",
+    "language": "italian",
+    "ipa_symbol": "ɔ/o ɛ/e",
+    "display_name": "Open vs Closed Vowels",
+    "description": "Italian has two versions of O (open ɔ and closed o) and two versions of E (open ɛ and closed e). While regional accents vary, knowing the difference helps comprehension and sounds more natural.",
+    "how_to_produce": [
+      "Open O (ɔ): Mouth wider, like 'o' in English 'pot' — donna, cosa, uomo",
+      "Closed O (o): Mouth smaller and rounder, like 'o' in 'go' — nome, sole, dove",
+      "Open E (ɛ): Mouth wider, like 'e' in 'bed' — bello, questa, sette",
+      "Closed E (e): Mouth smaller, like 'ay' in 'say' but shorter — mese, sera, verde",
+      "Stress usually falls on open vowels, but there are many exceptions"
+    ],
+    "common_mistakes": [
+      "Using only one O or E sound — Italian speakers distinguish them",
+      "Over-stressing the difference — it's subtle, not dramatic",
+      "Worrying too much — regional variation means both are usually understood"
+    ],
+    "example_words": [
+      { "text": "bello", "ipa": "ˈbɛllo", "meaning": "beautiful (open E)" },
+      { "text": "mese", "ipa": "ˈmese", "meaning": "month (closed E)" },
+      { "text": "donna", "ipa": "ˈdɔnna", "meaning": "woman (open O)" },
+      { "text": "nome", "ipa": "ˈnome", "meaning": "name (closed O)" }
+    ],
+    "practice_pairs": [
+      { "word1": "pesca", "word2": "pesca", "explanation": "peach (open E: PEH-skah) vs fishing (closed E: PAY-skah) — same spelling, different meaning based on vowel!" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "it_stress_patterns",
+    "language": "italian",
+    "ipa_symbol": "—",
+    "display_name": "Stress Patterns",
+    "description": "Italian words are usually stressed on the second-to-last syllable (penultimate), but there are many important exceptions. Written accents only appear when stress falls on the LAST syllable. Otherwise, you need to learn where the stress goes.",
+    "how_to_produce": [
+      "Default: stress the second-to-last syllable — amico (ah-MEE-koh), ragazzo (rah-GAH-tsoh)",
+      "Accented final vowel: stress the last syllable — città (chit-TAH), perché (pair-KAY)",
+      "Some common words stress the THIRD-to-last syllable — tavolo (TAH-voh-loh), numero (NOO-meh-roh)",
+      "Verbs often shift stress between forms — parlo (PAHR-loh) vs parlare (pahr-LAH-ray)"
+    ],
+    "common_mistakes": [
+      "Always stressing the second-to-last syllable — many common words are exceptions",
+      "Not stressing accented final syllables strongly enough",
+      "Putting English stress patterns on Italian words"
+    ],
+    "example_words": [
+      { "text": "amico", "ipa": "aˈmiko", "meaning": "friend (penultimate stress — normal)" },
+      { "text": "città", "ipa": "tʃitˈta", "meaning": "city (final stress — accented)" },
+      { "text": "tavolo", "ipa": "ˈtavolo", "meaning": "table (antepenultimate stress — exception)" },
+      { "text": "telefono", "ipa": "teˈlɛfono", "meaning": "telephone (antepenultimate — exception)" }
+    ],
+    "practice_pairs": [
+      { "word1": "ancora", "word2": "àncora", "explanation": "again/still (an-KOH-rah, penultimate) vs anchor (AHN-koh-rah, antepenultimate) — stress changes meaning!" }
+    ],
+    "audio_demo_rate": 0.3
+  },
+  {
+    "sound_id": "it_z_sounds",
+    "language": "italian",
+    "ipa_symbol": "dz / ts",
+    "display_name": "Z Sounds",
+    "description": "Italian Z has two pronunciations: voiced 'dz' (like 'dz' in 'adze') and voiceless 'ts' (like 'ts' in 'cats'). Unfortunately, there aren't clear rules — you mostly learn which pronunciation goes with which word.",
+    "how_to_produce": [
+      "Voiceless Z (ts): Like 'ts' in 'cats' or 'pizza' — crisp and sharp",
+      "Voiced Z (dz): Like 'ds' in 'beds' — buzzy with vocal cord vibration",
+      "General tendency: Z at the start of a word is often voiced (dz): zona, zero",
+      "Double ZZ is often voiceless (ts): pizza, piazza, ragazzo",
+      "After L or N, Z is usually voiced: alzare, pranzo"
+    ],
+    "common_mistakes": [
+      "Using English Z (a buzzy 'zzz') — Italian Z is always either 'ts' or 'dz', never just 'z'",
+      "Not distinguishing the two sounds — practice both",
+      "Pronouncing Z too softly — Italian Z sounds are strong and clear"
+    ],
+    "example_words": [
+      { "text": "pizza", "ipa": "ˈpittsa", "meaning": "pizza (voiceless ts)" },
+      { "text": "zona", "ipa": "ˈdzɔna", "meaning": "zone (voiced dz)" },
+      { "text": "stazione", "ipa": "statˈtsjone", "meaning": "station (voiceless ts)" },
+      { "text": "pranzo", "ipa": "ˈprandzo", "meaning": "lunch (voiced dz)" }
+    ],
+    "practice_pairs": [
+      { "word1": "razza", "word2": "razza", "explanation": "race/breed (voiceless: RAH-tsah) vs ray/skate fish (voiced: RAH-dzah) — context determines pronunciation" }
+    ],
+    "audio_demo_rate": 0.3
+  }
+]

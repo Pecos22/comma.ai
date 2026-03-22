@@ -1,0 +1,251 @@
+{
+  "unit_number": 1,
+  "language": "italian",
+  "title": "Greetings & Basics",
+  "pronunciation_focus_summary": "Double consonants — Italian distinguishes between single and double consonants. Holding the consonant longer changes meaning entirely (e.g., pena vs penna). Found in buongiorno, piacere, grazie, and many everyday words.",
+  "pronunciation_guide_ids": ["it_double_consonants", "it_stress_patterns"],
+  "phrases": [
+    {
+      "id": "it-01-001",
+      "text": "Buongiorno",
+      "translation": "Good morning / Good day",
+      "phonetic_ipa": "bwondʒorno",
+      "phonetic_approx": "bwon-JORN-oh",
+      "pronunciation_notes": "The 'gn' cluster is not a palatal nasal here — 'buon' and 'giorno' are separate components. The 'gi' sounds like English 'j' in 'joy'. Stress falls on the 'or' syllable.",
+      "difficulty_sounds": ["dʒ", "ɔ"],
+      "example_sentence": "Buongiorno, come sta?",
+      "tags": ["greeting", "formal", "morning"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-002",
+      "text": "Buonasera",
+      "translation": "Good evening",
+      "phonetic_ipa": "bwonasera",
+      "phonetic_approx": "bwon-ah-SEH-rah",
+      "pronunciation_notes": "Stress on 'se'. The 'e' is open as in 'bed'. The 's' between vowels stays unvoiced in standard Italian.",
+      "difficulty_sounds": ["ɛ"],
+      "example_sentence": "Buonasera, ha una prenotazione?",
+      "tags": ["greeting", "formal", "evening"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-003",
+      "text": "Buonanotte",
+      "translation": "Good night",
+      "phonetic_ipa": "bwɔnanɔtte",
+      "phonetic_approx": "bwoh-nah-NOHT-teh",
+      "pronunciation_notes": "Double 't' — hold the 't' sound slightly longer than in English. The 'o' in 'notte' is open. This is only used when saying goodbye at night or before bed, never as a greeting.",
+      "difficulty_sounds": ["tː", "ɔ"],
+      "example_sentence": "Buonanotte, a domani!",
+      "tags": ["greeting", "night", "farewell"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-004",
+      "text": "Ciao",
+      "translation": "Hi / Bye (informal)",
+      "phonetic_ipa": "tʃao",
+      "phonetic_approx": "CHOW",
+      "pronunciation_notes": "The 'ci' makes a 'ch' sound before 'ao'. This is one syllable — the 'a' and 'o' form a diphthong. Only use with friends, family, or people you address with 'tu'.",
+      "difficulty_sounds": ["tʃ"],
+      "example_sentence": "Ciao, come stai?",
+      "tags": ["greeting", "informal", "farewell"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-005",
+      "text": "Arrivederci",
+      "translation": "Goodbye",
+      "phonetic_ipa": "arrivedertʃi",
+      "phonetic_approx": "ah-ree-veh-DEHR-chee",
+      "pronunciation_notes": "Double 'r' — trill it or at least tap it twice. The 'ci' at the end is 'chee'. Stress falls on 'der'. This is the standard polite goodbye.",
+      "difficulty_sounds": ["rː", "tʃ"],
+      "example_sentence": "Arrivederci e grazie!",
+      "tags": ["farewell", "formal", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-006",
+      "text": "Per favore",
+      "translation": "Please",
+      "phonetic_ipa": "per favore",
+      "phonetic_approx": "pehr fah-VOH-reh",
+      "pronunciation_notes": "The 'v' is like English 'v'. Stress on 'vo'. The final 'e' is always pronounced in Italian — never drop it.",
+      "difficulty_sounds": ["r", "ɔ"],
+      "example_sentence": "Un caffe, per favore.",
+      "tags": ["essential", "polite", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-007",
+      "text": "Grazie",
+      "translation": "Thank you",
+      "phonetic_ipa": "ɡrattsje",
+      "phonetic_approx": "GRAH-tsyeh",
+      "pronunciation_notes": "The 'z' in 'grazie' is unvoiced, like 'ts' in 'cats'. Two syllables: GRAH-tsyeh. The 'ie' is a quick diphthong. Stress is on the first syllable.",
+      "difficulty_sounds": ["ts", "j"],
+      "example_sentence": "Grazie per l'aiuto!",
+      "tags": ["essential", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-008",
+      "text": "Grazie mille",
+      "translation": "Thank you very much (lit. 'a thousand thanks')",
+      "phonetic_ipa": "ɡrattsje mille",
+      "phonetic_approx": "GRAH-tsyeh MEEL-leh",
+      "pronunciation_notes": "Double 'l' in 'mille' — hold the 'l' longer. The 'e' at the end is pronounced. 'Mille' means 'a thousand'.",
+      "difficulty_sounds": ["ts", "lː"],
+      "example_sentence": "Grazie mille, sei molto gentile!",
+      "tags": ["essential", "polite", "emphasis"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-009",
+      "text": "Prego",
+      "translation": "You're welcome / Please (go ahead)",
+      "phonetic_ipa": "preɡo",
+      "phonetic_approx": "PREH-goh",
+      "pronunciation_notes": "The 'e' is open, like in 'bed'. The 'g' is hard as in 'go'. Two syllables with stress on the first. Also used to mean 'please, go ahead' or 'after you'.",
+      "difficulty_sounds": ["ɛ"],
+      "example_sentence": "Prego, si accomodi.",
+      "tags": ["essential", "polite", "response"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-010",
+      "text": "Mi scusi",
+      "translation": "Excuse me (formal)",
+      "phonetic_ipa": "mi skuzi",
+      "phonetic_approx": "mee SKOO-zee",
+      "pronunciation_notes": "The 's' in 'scusi' is unvoiced before 'c'. The 'u' is pure, like 'oo' in 'food'. The final 'i' is clear. Use this with strangers and in formal situations.",
+      "difficulty_sounds": ["sk", "z"],
+      "example_sentence": "Mi scusi, dov'e la stazione?",
+      "tags": ["essential", "polite", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-011",
+      "text": "Scusa",
+      "translation": "Excuse me / Sorry (informal)",
+      "phonetic_ipa": "skuza",
+      "phonetic_approx": "SKOO-zah",
+      "pronunciation_notes": "Similar to 'scusi' but informal. The 's' before 'c' is unvoiced. Use with friends or people your age in casual settings.",
+      "difficulty_sounds": ["sk"],
+      "example_sentence": "Scusa, hai un momento?",
+      "tags": ["essential", "polite", "informal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-012",
+      "text": "Si",
+      "translation": "Yes",
+      "phonetic_ipa": "si",
+      "phonetic_approx": "SEE",
+      "pronunciation_notes": "Simple and clean — just like 'see' in English. No accent mark (si with an accent means 'oneself' or 'if').",
+      "difficulty_sounds": [],
+      "example_sentence": "Si, certo!",
+      "tags": ["essential", "basic"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-013",
+      "text": "No",
+      "translation": "No",
+      "phonetic_ipa": "nɔ",
+      "phonetic_approx": "NOH",
+      "pronunciation_notes": "The 'o' is open, slightly shorter than the English 'no'. Keep it crisp.",
+      "difficulty_sounds": ["ɔ"],
+      "example_sentence": "No, grazie.",
+      "tags": ["essential", "basic"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-014",
+      "text": "Come sta?",
+      "translation": "How are you? (formal)",
+      "phonetic_ipa": "kome sta",
+      "phonetic_approx": "KOH-meh STAH",
+      "pronunciation_notes": "Two short words. 'Come' has a closed 'o' and the final 'e' is always pronounced. 'Sta' is one clean syllable. Use with strangers, elders, and in formal settings.",
+      "difficulty_sounds": ["o"],
+      "example_sentence": "Buongiorno, come sta?",
+      "tags": ["greeting", "formal", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-01-015",
+      "text": "Molto bene, grazie",
+      "translation": "Very well, thank you",
+      "phonetic_ipa": "molto bɛne ɡrattsje",
+      "phonetic_approx": "MOHL-toh BEH-neh GRAH-tsyeh",
+      "pronunciation_notes": "Three words flowing together. 'Molto' — closed 'o', clear 'l'. 'Bene' — open 'e' like 'bed', final 'e' pronounced. Standard polite response to 'Come sta?'.",
+      "difficulty_sounds": ["ɛ", "ts"],
+      "example_sentence": "Molto bene, grazie, e Lei?",
+      "tags": ["response", "polite", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "it-01-d01",
+      "context": "Meeting someone at a formal event",
+      "exchanges": [
+        { "speaker": "you", "text": "Buonasera!", "translation": "Good evening!", "phonetic_approx": "bwon-ah-SEH-rah" },
+        { "speaker": "other", "text": "Buonasera! Come sta?", "translation": "Good evening! How are you?", "phonetic_approx": "bwon-ah-SEH-rah KOH-meh STAH" },
+        { "speaker": "you", "text": "Molto bene, grazie. E Lei?", "translation": "Very well, thank you. And you?", "phonetic_approx": "MOHL-toh BEH-neh GRAH-tsyeh eh LAY" },
+        { "speaker": "other", "text": "Bene, grazie. Piacere!", "translation": "Well, thank you. Nice to meet you!", "phonetic_approx": "BEH-neh GRAH-tsyeh pyah-CHEH-reh" }
+      ],
+      "notes": "Use 'Lei' (capitalized) for formal 'you'. It takes third-person verb forms. Always default to Lei with strangers."
+    },
+    {
+      "id": "it-01-d02",
+      "context": "Asking for help on the street",
+      "exchanges": [
+        { "speaker": "you", "text": "Mi scusi!", "translation": "Excuse me!", "phonetic_approx": "mee SKOO-zee" },
+        { "speaker": "other", "text": "Si, prego?", "translation": "Yes, go ahead?", "phonetic_approx": "SEE PREH-goh" },
+        { "speaker": "you", "text": "Grazie mille!", "translation": "Thank you very much!", "phonetic_approx": "GRAH-tsyeh MEEL-leh" },
+        { "speaker": "other", "text": "Prego, arrivederci!", "translation": "You're welcome, goodbye!", "phonetic_approx": "PREH-goh ah-ree-veh-DEHR-chee" }
+      ],
+      "notes": "'Mi scusi' is the standard way to get a stranger's attention politely. 'Prego' as a response to thanks is universal in Italian."
+    },
+    {
+      "id": "it-01-d03",
+      "context": "Running into a friend on the street",
+      "exchanges": [
+        { "speaker": "you", "text": "Ciao! Come stai?", "translation": "Hi! How are you?", "phonetic_approx": "CHOW KOH-meh STAI" },
+        { "speaker": "other", "text": "Ciao! Bene, e tu?", "translation": "Hi! Good, and you?", "phonetic_approx": "CHOW BEH-neh eh TOO" },
+        { "speaker": "you", "text": "Molto bene, grazie!", "translation": "Very well, thanks!", "phonetic_approx": "MOHL-toh BEH-neh GRAH-tsyeh" },
+        { "speaker": "other", "text": "Ciao, a presto!", "translation": "Bye, see you soon!", "phonetic_approx": "CHOW ah PREH-stoh" }
+      ],
+      "notes": "With friends, use 'tu' (informal you) and 'come stai?' instead of 'come sta?'. 'A presto' is a warm, casual goodbye meaning 'see you soon'."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "it-01-cn01",
+      "title": "Formal vs Informal: Tu and Lei",
+      "content": "Italian has two forms of 'you': 'tu' (informal) and 'Lei' (formal). Use 'Lei' with strangers, older people, officials, and in professional settings. Use 'tu' with friends, family, children, and peers in casual situations. When in doubt, start with 'Lei' — the other person will often say 'Diamoci del tu!' (Let's use tu!) if they want to switch. Getting this wrong is not a disaster, but using 'tu' with an elder stranger can come across as disrespectful."
+    },
+    {
+      "id": "it-01-cn02",
+      "title": "Greetings involve physical contact",
+      "content": "Italians typically greet friends and acquaintances with two light kisses on the cheeks, starting from the left cheek. Between men, a firm handshake is more common unless they are close friends or family. In formal or business settings, a handshake is standard for everyone. Italians also tend to stand closer during conversation than Northern Europeans or Americans — this is normal and not an invasion of personal space."
+    }
+  ]
+}

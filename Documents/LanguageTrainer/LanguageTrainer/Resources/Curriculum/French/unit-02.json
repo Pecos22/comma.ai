@@ -1,0 +1,235 @@
+{
+  "unit_number": 2,
+  "language": "french",
+  "title": "Introducing Yourself",
+  "pronunciation_focus_summary": "Liaison — linking the final consonant of one word to the vowel starting the next word, like 'je suis‿un' and 'c'est‿un'.",
+  "pronunciation_guide_ids": ["fr_liaison", "fr_nasal_vowels"],
+  "phrases": [
+    {
+      "id": "fr-02-001",
+      "text": "Je m'appelle...",
+      "translation": "My name is...",
+      "phonetic_ipa": "ʒə mapɛl",
+      "phonetic_approx": "zhuh mah-PEL",
+      "pronunciation_notes": "The 'je' is a soft 'zh' sound. The double 'l' in 'appelle' is pronounced clearly. Stress falls on the last syllable.",
+      "difficulty_sounds": ["ʒ", "ɛ"],
+      "example_sentence": "Je m'appelle Marie, et vous ?",
+      "tags": ["introduction", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-002",
+      "text": "Comment vous appelez-vous ?",
+      "translation": "What is your name? (formal)",
+      "phonetic_ipa": "kɔmɑ̃ vuz aple vu",
+      "phonetic_approx": "koh-MAHN vooz ah-play-VAY voo",
+      "pronunciation_notes": "Notice the liaison: 'vous‿appelez' — the 's' of 'vous' links to the 'a' of 'appelez', making a 'z' sound.",
+      "difficulty_sounds": ["ɑ̃", "z‿"],
+      "example_sentence": "Bonjour, comment vous appelez-vous ?",
+      "tags": ["introduction", "formal", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-003",
+      "text": "Je suis américain(e)",
+      "translation": "I am American",
+      "phonetic_ipa": "ʒə sɥi amеʁikɛ̃",
+      "phonetic_approx": "zhuh SWEE ah-may-ree-KAHN",
+      "pronunciation_notes": "Liaison between 'suis' and 'américain' — the 's' links as a 'z' sound. The nasal 'ain' at the end.",
+      "difficulty_sounds": ["sɥi", "ɛ̃"],
+      "example_sentence": "Je suis américain, et vous ?",
+      "tags": ["introduction", "nationality"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-004",
+      "text": "J'habite à...",
+      "translation": "I live in...",
+      "phonetic_ipa": "ʒabit a",
+      "phonetic_approx": "zhah-BEET ah",
+      "pronunciation_notes": "The 'j'' is an elision — 'je' drops its 'e' before a vowel. This is mandatory, not optional.",
+      "difficulty_sounds": ["ʒ"],
+      "example_sentence": "J'habite à Paris depuis deux ans.",
+      "tags": ["introduction", "location"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-005",
+      "text": "Je viens de...",
+      "translation": "I come from...",
+      "phonetic_ipa": "ʒə vjɛ̃ də",
+      "phonetic_approx": "zhuh VYEHN duh",
+      "pronunciation_notes": "The 'ien' in 'viens' is a nasal vowel — lips spread, air through nose. Don't pronounce the final 's'.",
+      "difficulty_sounds": ["ɛ̃", "ʒ"],
+      "example_sentence": "Je viens de New York.",
+      "tags": ["introduction", "origin"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-006",
+      "text": "Enchanté(e)",
+      "translation": "Nice to meet you",
+      "phonetic_ipa": "ɑ̃ʃɑ̃te",
+      "phonetic_approx": "ahn-shahn-TAY",
+      "pronunciation_notes": "Two nasal vowels: 'en' and 'an' — both are the same nasal sound (ɑ̃). The final 'é' is a clear 'ay' sound.",
+      "difficulty_sounds": ["ɑ̃", "ʃ"],
+      "example_sentence": "Enchanté ! Je suis Pierre.",
+      "tags": ["introduction", "greeting", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-007",
+      "text": "Quel âge avez-vous ?",
+      "translation": "How old are you? (formal)",
+      "phonetic_ipa": "kɛl ɑʒ ave vu",
+      "phonetic_approx": "kel AHzh ah-VAY voo",
+      "pronunciation_notes": "Liaison: 'quel‿âge' links smoothly. The 'â' in 'âge' is an open 'ah' sound.",
+      "difficulty_sounds": ["ɛ", "ʒ"],
+      "example_sentence": "Quel âge avez-vous, si ce n'est pas indiscret ?",
+      "tags": ["introduction", "question", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-008",
+      "text": "J'ai trente ans",
+      "translation": "I am thirty years old",
+      "phonetic_ipa": "ʒe tʁɑ̃t ɑ̃",
+      "phonetic_approx": "zhay TRAHNT ahn",
+      "pronunciation_notes": "The 'e' in 'trente' is silent. Liaison: 'trente‿ans' — the 't' links to 'ans'. Two nasal sounds close together.",
+      "difficulty_sounds": ["ɑ̃", "ʁ"],
+      "example_sentence": "J'ai trente ans et j'habite à Lyon.",
+      "tags": ["introduction", "age", "numbers"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-009",
+      "text": "Je parle un peu français",
+      "translation": "I speak a little French",
+      "phonetic_ipa": "ʒə paʁl œ̃ pø fʁɑ̃sɛ",
+      "phonetic_approx": "zhuh PAHRL uhn puh frahn-SEH",
+      "pronunciation_notes": "The 'un' is a nasal vowel (lips rounded). 'Peu' has the 'eu' sound — round your lips like 'oo' but say 'uh'.",
+      "difficulty_sounds": ["œ̃", "ø", "ʁ", "ɑ̃"],
+      "example_sentence": "Je parle un peu français, mais je suis encore débutant.",
+      "tags": ["introduction", "language", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-010",
+      "text": "Je ne parle pas bien français",
+      "translation": "I don't speak French well",
+      "phonetic_ipa": "ʒə nə paʁl pa bjɛ̃ fʁɑ̃sɛ",
+      "phonetic_approx": "zhuh nuh PAHRL pah byehn frahn-SEH",
+      "pronunciation_notes": "The negation 'ne...pas' wraps the verb. In casual speech, 'ne' is often dropped: 'je parle pas'.",
+      "difficulty_sounds": ["ɛ̃", "ʁ", "ɑ̃"],
+      "example_sentence": "Désolé, je ne parle pas bien français.",
+      "tags": ["introduction", "language", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-011",
+      "text": "Vous parlez anglais ?",
+      "translation": "Do you speak English?",
+      "phonetic_ipa": "vu paʁle ɑ̃glɛ",
+      "phonetic_approx": "voo pahr-LAY ahn-GLEH",
+      "pronunciation_notes": "Rising intonation makes it a question. The 'ais' in 'anglais' sounds like 'eh' (open E).",
+      "difficulty_sounds": ["ɑ̃", "ɛ", "ʁ"],
+      "example_sentence": "Excusez-moi, vous parlez anglais ?",
+      "tags": ["introduction", "language", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-012",
+      "text": "Je suis étudiant(e)",
+      "translation": "I am a student",
+      "phonetic_ipa": "ʒə sɥiz etydjɑ̃",
+      "phonetic_approx": "zhuh SWEEZ ay-too-DYAHN",
+      "pronunciation_notes": "Liaison: 'suis‿étudiant' — the 's' links as 'z'. The 'u' in 'étudiant' is the French U (lips rounded, tongue forward).",
+      "difficulty_sounds": ["sɥi", "y", "ɑ̃"],
+      "example_sentence": "Je suis étudiant en médecine.",
+      "tags": ["introduction", "profession"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-013",
+      "text": "Je travaille dans...",
+      "translation": "I work in...",
+      "phonetic_ipa": "ʒə tʁavaj dɑ̃",
+      "phonetic_approx": "zhuh trah-VYE dahn",
+      "pronunciation_notes": "The 'aille' sounds like 'eye' with a y sound. The 'dans' has a nasal vowel.",
+      "difficulty_sounds": ["ʁ", "aj", "ɑ̃"],
+      "example_sentence": "Je travaille dans la technologie.",
+      "tags": ["introduction", "profession"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-014",
+      "text": "Ravi(e) de vous connaître",
+      "translation": "Pleased to meet you",
+      "phonetic_ipa": "ʁavi də vu konɛtʁ",
+      "phonetic_approx": "rah-VEE duh voo koh-NETR",
+      "pronunciation_notes": "The French R starts this phrase — practice the uvular sound. The 'aî' in 'connaître' is an open 'eh' sound.",
+      "difficulty_sounds": ["ʁ", "ɛ"],
+      "example_sentence": "Ravi de vous connaître, je suis Marc.",
+      "tags": ["introduction", "polite", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-02-015",
+      "text": "C'est un plaisir",
+      "translation": "It's a pleasure",
+      "phonetic_ipa": "sɛt œ̃ plɛziʁ",
+      "phonetic_approx": "set uhn pleh-ZEER",
+      "pronunciation_notes": "Liaison: 'c'est‿un' — the 't' links to 'un'. The nasal 'un' and the French R at the end.",
+      "difficulty_sounds": ["œ̃", "ʁ", "z‿"],
+      "example_sentence": "C'est un plaisir de vous rencontrer.",
+      "tags": ["introduction", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "fr-02-d01",
+      "context": "Meeting someone at a language exchange event",
+      "exchanges": [
+        { "speaker": "you", "text": "Bonjour ! Je m'appelle Sarah.", "translation": "Hello! My name is Sarah.", "phonetic_approx": "bohn-ZHOOR! zhuh mah-PEL sah-RAH" },
+        { "speaker": "other", "text": "Enchanté, Sarah ! Je m'appelle Thomas. Vous êtes américaine ?", "translation": "Nice to meet you, Sarah! My name is Thomas. Are you American?", "phonetic_approx": "ahn-shahn-TAY sah-RAH! zhuh mah-PEL toh-MAH. vooz ET ah-may-ree-KEN?" },
+        { "speaker": "you", "text": "Oui, je viens de New York. Et vous ?", "translation": "Yes, I come from New York. And you?", "phonetic_approx": "WEE, zhuh VYEHN duh New York. ay VOO?" },
+        { "speaker": "other", "text": "Je suis français, j'habite à Paris.", "translation": "I'm French, I live in Paris.", "phonetic_approx": "zhuh SWEE frahn-SEH, zhah-BEET ah pah-REE" }
+      ],
+      "notes": "Use 'vous' (formal) when meeting someone for the first time. 'Tu' is for friends and family."
+    },
+    {
+      "id": "fr-02-d02",
+      "context": "At a professional networking event",
+      "exchanges": [
+        { "speaker": "other", "text": "Bonsoir ! Comment vous appelez-vous ?", "translation": "Good evening! What's your name?", "phonetic_approx": "bohn-SWAHR! koh-MAHN vooz ah-play-VAY voo?" },
+        { "speaker": "you", "text": "Je m'appelle Alex. Je travaille dans la finance.", "translation": "My name is Alex. I work in finance.", "phonetic_approx": "zhuh mah-PEL ah-LEX. zhuh trah-VYE dahn lah fee-NAHNSS" },
+        { "speaker": "other", "text": "Ravi de vous connaître ! Vous parlez très bien français.", "translation": "Pleased to meet you! You speak French very well.", "phonetic_approx": "rah-VEE duh voo koh-NETR! voo pahr-LAY treh byehn frahn-SEH" },
+        { "speaker": "you", "text": "Merci ! Je parle un peu français.", "translation": "Thank you! I speak a little French.", "phonetic_approx": "mehr-SEE! zhuh PAHRL uhn puh frahn-SEH" }
+      ],
+      "notes": "The French often compliment language learners. 'Je parle un peu' is a humble and appropriate response."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "fr-02-cn01",
+      "title": "Tu vs Vous — the art of formality",
+      "content": "French has two words for 'you': 'tu' (informal, singular) and 'vous' (formal, or plural). Use 'vous' with strangers, older people, and in professional settings. Use 'tu' with friends, family, children, and peers who invite you to. Switching from 'vous' to 'tu' (called 'tutoyer') is a social milestone — wait for the French person to suggest it."
+    }
+  ]
+}

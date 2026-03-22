@@ -1,0 +1,294 @@
+{
+  "unit_number": 3,
+  "language": "italian",
+  "title": "At a Caffe / Bar",
+  "pronunciation_focus_summary": "Open vs closed vowels — Italian has seven vowel sounds, not five. The difference between open 'e' (as in caffe) and closed 'e' (as in perche), and open 'o' (as in cosa) and closed 'o' (as in come) is fundamental to sounding natural.",
+  "pronunciation_guide_ids": ["it_open_closed_vowels", "it_double_consonants"],
+  "phrases": [
+    {
+      "id": "it-03-001",
+      "text": "Un caffe, per favore",
+      "translation": "A coffee, please",
+      "phonetic_ipa": "uŋ kafˈfɛ per favore",
+      "phonetic_approx": "oon kahf-FEH pehr fah-VOH-reh",
+      "pronunciation_notes": "Double 'f' in 'caffe' — hold the 'f' sound longer. The final 'e' has an open sound and carries the stress (caff-EH). In Italy, 'un caffe' always means espresso.",
+      "difficulty_sounds": ["fː", "ɛ"],
+      "example_sentence": "Buongiorno, un caffe, per favore.",
+      "tags": ["drinks", "essential", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-002",
+      "text": "Un cappuccino",
+      "translation": "A cappuccino",
+      "phonetic_ipa": "uŋ kapputˈtʃino",
+      "phonetic_approx": "oon kahp-poo-CHEE-noh",
+      "pronunciation_notes": "Double 'p' AND double 'c' — both consonants are held longer. The 'cc' before 'i' makes a 'tch' sound. Italians only drink cappuccino in the morning, never after a meal.",
+      "difficulty_sounds": ["pː", "tːʃ"],
+      "example_sentence": "Un cappuccino e un cornetto, per favore.",
+      "tags": ["drinks", "morning", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-003",
+      "text": "Un'acqua minerale",
+      "translation": "A mineral water",
+      "phonetic_ipa": "un akkwa minerale",
+      "phonetic_approx": "oon AHK-kwah mee-neh-RAH-leh",
+      "pronunciation_notes": "Double 'c' in 'acqua' before 'qu' — a unique Italian cluster. 'Acqua' is AHK-kwah, two syllables. You'll be asked 'naturale o frizzante?' (still or sparkling?).",
+      "difficulty_sounds": ["kːw"],
+      "example_sentence": "Un'acqua minerale naturale, per favore.",
+      "tags": ["drinks", "essential", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-004",
+      "text": "Una birra",
+      "translation": "A beer",
+      "phonetic_ipa": "una birra",
+      "phonetic_approx": "OO-nah BEER-rah",
+      "pronunciation_notes": "Double 'r' — trill or strongly tap the 'r'. 'Una' because 'birra' is feminine. The 'i' is a pure 'ee' sound.",
+      "difficulty_sounds": ["rː"],
+      "example_sentence": "Una birra alla spina, per favore.",
+      "tags": ["drinks", "bar", "alcohol"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-005",
+      "text": "Il conto, per favore",
+      "translation": "The bill, please",
+      "phonetic_ipa": "il konto per favore",
+      "phonetic_approx": "eel KOHN-toh pehr fah-VOH-reh",
+      "pronunciation_notes": "Closed 'o' in 'conto'. The 'n' before 't' is clean. In Italian bars, you often pay at the 'cassa' (register) first, then bring the receipt to the counter.",
+      "difficulty_sounds": ["o"],
+      "example_sentence": "Mi scusi, il conto, per favore.",
+      "tags": ["essential", "payment", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-006",
+      "text": "Un tavolo per due",
+      "translation": "A table for two",
+      "phonetic_ipa": "un tavolo per due",
+      "phonetic_approx": "oon TAH-voh-loh pehr DOO-eh",
+      "pronunciation_notes": "Stress on the first syllable of 'tavolo': TAH-voh-loh. Three syllables. 'Due' is one syllable with a diphthong: DOO-eh.",
+      "difficulty_sounds": ["o"],
+      "example_sentence": "Buongiorno, un tavolo per due, per favore.",
+      "tags": ["seating", "essential", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-007",
+      "text": "Vorrei...",
+      "translation": "I would like...",
+      "phonetic_ipa": "vorːei",
+      "phonetic_approx": "vohr-RAY",
+      "pronunciation_notes": "Double 'r' — give it a good trill or strong tap. The 'ei' diphthong sounds like 'ay' in 'say'. This is the polite conditional form, perfect for ordering.",
+      "difficulty_sounds": ["rː", "ei"],
+      "example_sentence": "Vorrei un caffe macchiato.",
+      "tags": ["ordering", "polite", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-008",
+      "text": "Un caffe macchiato",
+      "translation": "An espresso with a dash of milk (lit. 'stained coffee')",
+      "phonetic_ipa": "uŋ kafˈfɛ makkjato",
+      "phonetic_approx": "oon kahf-FEH mahk-KYAH-toh",
+      "pronunciation_notes": "Double 'f' in 'caffe', double 'c' in 'macchiato'. The 'chi' is a hard 'k' sound. 'Macchiato' means 'stained' — the espresso is stained with a drop of milk.",
+      "difficulty_sounds": ["fː", "kːj"],
+      "example_sentence": "Vorrei un caffe macchiato caldo.",
+      "tags": ["drinks", "coffee", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-009",
+      "text": "Un te",
+      "translation": "A tea",
+      "phonetic_ipa": "un tɛ",
+      "phonetic_approx": "oon TEH",
+      "pronunciation_notes": "Open 'e' with stress on the vowel. Short and simple. You can specify: 'un te verde' (green tea), 'un te nero' (black tea), 'un te al limone' (lemon tea).",
+      "difficulty_sounds": ["ɛ"],
+      "example_sentence": "Un te caldo, per favore.",
+      "tags": ["drinks", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-010",
+      "text": "Un cornetto",
+      "translation": "A croissant (Italian style)",
+      "phonetic_ipa": "uŋ kornetto",
+      "phonetic_approx": "oon kohr-NEHT-toh",
+      "pronunciation_notes": "Double 't' — hold the 't' sound. Stress on 'net'. A cornetto is the Italian version of a croissant, often filled with cream, jam, or Nutella.",
+      "difficulty_sounds": ["r", "tː"],
+      "example_sentence": "Un cornetto alla crema, per favore.",
+      "tags": ["food", "breakfast", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-011",
+      "text": "Naturale o frizzante?",
+      "translation": "Still or sparkling?",
+      "phonetic_ipa": "naturale o fridˈdzante",
+      "phonetic_approx": "nah-too-RAH-leh oh freed-ZAHN-teh",
+      "pronunciation_notes": "You'll hear this question whenever you order water. 'Frizzante' has a voiced 'zz' like 'dz'. The 'r' in 'frizzante' should be tapped.",
+      "difficulty_sounds": ["dːz", "r"],
+      "example_sentence": "Acqua naturale o frizzante?",
+      "tags": ["drinks", "question", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-012",
+      "text": "Quanto costa?",
+      "translation": "How much does it cost?",
+      "phonetic_ipa": "kwanto kɔsta",
+      "phonetic_approx": "KWAHN-toh KOH-stah",
+      "pronunciation_notes": "Open 'o' in 'costa'. 'Quanto' starts with 'kw'. Simple, essential question for any purchase.",
+      "difficulty_sounds": ["kw", "ɔ"],
+      "example_sentence": "Mi scusi, quanto costa il cornetto?",
+      "tags": ["essential", "payment", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-013",
+      "text": "Posso avere...",
+      "translation": "Can I have...",
+      "phonetic_ipa": "pɔsso avere",
+      "phonetic_approx": "POHS-soh ah-VEH-reh",
+      "pronunciation_notes": "Double 's' in 'posso' — hold the 's' sound. Open 'o' in the first syllable. A polite alternative to 'vorrei' for ordering.",
+      "difficulty_sounds": ["sː", "ɔ"],
+      "example_sentence": "Posso avere un bicchiere d'acqua?",
+      "tags": ["ordering", "polite", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-014",
+      "text": "Un bicchiere di vino rosso",
+      "translation": "A glass of red wine",
+      "phonetic_ipa": "um bikkjɛre di vino rosso",
+      "phonetic_approx": "oom beek-KYEH-reh dee VEE-noh ROHS-soh",
+      "pronunciation_notes": "Double 'c' in 'bicchiere' — hard 'k' sound held longer. 'Chi' is always 'kee' in Italian. Double 's' in 'rosso'. 'Vino' has a pure 'ee' vowel.",
+      "difficulty_sounds": ["kːj", "sː"],
+      "example_sentence": "Vorrei un bicchiere di vino rosso della casa.",
+      "tags": ["drinks", "alcohol", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-015",
+      "text": "Un succo di frutta",
+      "translation": "A fruit juice",
+      "phonetic_ipa": "un sukko di frutta",
+      "phonetic_approx": "oon SOOK-koh dee FROOT-tah",
+      "pronunciation_notes": "Double 'c' in 'succo' and double 't' in 'frutta'. Both require holding the consonant. 'Frutta' has the Italian rolled 'r'.",
+      "difficulty_sounds": ["kː", "tː", "r"],
+      "example_sentence": "Un succo di frutta all'arancia, per favore.",
+      "tags": ["drinks", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-016",
+      "text": "Al banco o al tavolo?",
+      "translation": "At the counter or at a table?",
+      "phonetic_ipa": "al banko o al tavolo",
+      "phonetic_approx": "ahl BAHN-koh oh ahl TAH-voh-loh",
+      "pronunciation_notes": "You may hear this question in Italian bars. Drinking at the counter ('al banco') is cheaper than sitting at a table ('al tavolo') in many traditional bars.",
+      "difficulty_sounds": [],
+      "example_sentence": "Preferisce al banco o al tavolo?",
+      "tags": ["bar", "seating", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-017",
+      "text": "Un caffe decaffeinato",
+      "translation": "A decaf coffee",
+      "phonetic_ipa": "uŋ kafˈfɛ dekaffeinato",
+      "phonetic_approx": "oon kahf-FEH deh-kahf-fay-NAH-toh",
+      "pronunciation_notes": "Double 'f' in both 'caffe' and 'decaffeinato'. Stress on 'na' in 'decaffeinato'. Italians sometimes call this 'un deca' for short.",
+      "difficulty_sounds": ["fː"],
+      "example_sentence": "Vorrei un caffe decaffeinato, per favore.",
+      "tags": ["drinks", "coffee", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-03-018",
+      "text": "Con zucchero o senza?",
+      "translation": "With sugar or without?",
+      "phonetic_ipa": "kon dzukkero o sentsa",
+      "phonetic_approx": "kohn DZOOK-keh-roh oh SEHN-tsah",
+      "pronunciation_notes": "The 'z' in 'zucchero' is voiced like 'dz'. Double 'c' in 'zucchero' is a hard 'k'. 'Senza' has an unvoiced 'z' like 'ts'.",
+      "difficulty_sounds": ["dz", "kː", "ts"],
+      "example_sentence": "Il caffe lo vuole con zucchero o senza?",
+      "tags": ["drinks", "question", "bar"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "it-03-d01",
+      "context": "Ordering breakfast at an Italian bar",
+      "exchanges": [
+        { "speaker": "barista", "text": "Buongiorno! Cosa prende?", "translation": "Good morning! What will you have?", "phonetic_approx": "bwon-JORN-oh KOH-zah PREHN-deh" },
+        { "speaker": "you", "text": "Buongiorno. Un cappuccino e un cornetto alla crema, per favore.", "translation": "Good morning. A cappuccino and a cream-filled croissant, please.", "phonetic_approx": "bwon-JORN-oh oon kahp-poo-CHEE-noh eh oon kohr-NEHT-toh AHL-lah KREH-mah pehr fah-VOH-reh" },
+        { "speaker": "barista", "text": "Al banco o al tavolo?", "translation": "At the counter or at a table?", "phonetic_approx": "ahl BAHN-koh oh ahl TAH-voh-loh" },
+        { "speaker": "you", "text": "Al banco. Quanto costa?", "translation": "At the counter. How much is it?", "phonetic_approx": "ahl BAHN-koh KWAHN-toh KOH-stah" },
+        { "speaker": "barista", "text": "Tre euro e cinquanta.", "translation": "Three euros fifty.", "phonetic_approx": "treh EH-oo-roh eh cheen-KWAHN-tah" },
+        { "speaker": "you", "text": "Ecco. Grazie!", "translation": "Here you go. Thanks!", "phonetic_approx": "EHK-koh GRAH-tsyeh" }
+      ],
+      "notes": "In traditional Italian bars, you pay at the cash register (cassa) first, get a receipt (scontrino), then take it to the counter to place your order. Standing at the bar is cheaper than sitting at a table."
+    },
+    {
+      "id": "it-03-d02",
+      "context": "Ordering drinks in the afternoon",
+      "exchanges": [
+        { "speaker": "you", "text": "Buonasera. Vorrei un bicchiere di vino rosso, per favore.", "translation": "Good evening. I would like a glass of red wine, please.", "phonetic_approx": "bwon-ah-SEH-rah vohr-RAY oon beek-KYEH-reh dee VEE-noh ROHS-soh pehr fah-VOH-reh" },
+        { "speaker": "barista", "text": "Certo. Della casa o preferisce vedere la carta dei vini?", "translation": "Sure. House wine, or would you prefer to see the wine list?", "phonetic_approx": "CHEHR-toh DEHL-lah KAH-zah oh preh-feh-REE-sheh veh-DEH-reh lah KAHR-tah day VEE-nee" },
+        { "speaker": "you", "text": "Della casa va benissimo, grazie.", "translation": "House wine is perfectly fine, thanks.", "phonetic_approx": "DEHL-lah KAH-zah vah beh-NEES-see-moh GRAH-tsyeh" },
+        { "speaker": "barista", "text": "Ecco a Lei. Desidera qualcos'altro?", "translation": "Here you are. Would you like anything else?", "phonetic_approx": "EHK-koh ah LAY deh-ZEE-deh-rah kwahl-koh-ZAHL-troh" },
+        { "speaker": "you", "text": "No, grazie. Il conto, per favore.", "translation": "No, thanks. The bill, please.", "phonetic_approx": "noh GRAH-tsyeh eel KOHN-toh pehr fah-VOH-reh" }
+      ],
+      "notes": "Italian bars serve everything from coffee to cocktails. In the late afternoon, many Italians enjoy an 'aperitivo' — a pre-dinner drink often accompanied by free snacks or a small buffet."
+    },
+    {
+      "id": "it-03-d03",
+      "context": "Asking about water at a restaurant bar",
+      "exchanges": [
+        { "speaker": "waiter", "text": "Da bere?", "translation": "To drink?", "phonetic_approx": "dah BEH-reh" },
+        { "speaker": "you", "text": "Un'acqua minerale, per favore.", "translation": "A mineral water, please.", "phonetic_approx": "oon-AHK-kwah mee-neh-RAH-leh pehr fah-VOH-reh" },
+        { "speaker": "waiter", "text": "Naturale o frizzante?", "translation": "Still or sparkling?", "phonetic_approx": "nah-too-RAH-leh oh freed-ZAHN-teh" },
+        { "speaker": "you", "text": "Frizzante, grazie.", "translation": "Sparkling, thanks.", "phonetic_approx": "freed-ZAHN-teh GRAH-tsyeh" },
+        { "speaker": "waiter", "text": "Subito!", "translation": "Right away!", "phonetic_approx": "SOO-bee-toh" }
+      ],
+      "notes": "Tap water is not commonly served in Italian restaurants. You will almost always be brought bottled water and asked whether you want 'naturale' (still) or 'frizzante' (sparkling). Asking for tap water ('acqua del rubinetto') is possible but uncommon."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "it-03-cn01",
+      "title": "Italian bar culture: It's not what you think",
+      "content": "An Italian 'bar' is not primarily a place for alcohol — it's the social heart of every neighborhood. Italians visit their local bar multiple times a day: for a quick morning espresso and cornetto, a mid-morning coffee break, a lunchtime panino, an afternoon pick-me-up, and an evening aperitivo. Most people stand at the counter (al banco), drink their espresso in two or three sips, exchange a few words with the barista, and leave. The entire ritual takes under five minutes. Sitting at a table often costs more (sometimes double), which is why locals rarely do it."
+    },
+    {
+      "id": "it-03-cn02",
+      "title": "The unwritten rules of Italian coffee",
+      "content": "Coffee in Italy follows strict cultural rules. Cappuccino and any milk-based coffee is only for the morning — ordering one after lunch or dinner will mark you as a tourist. After a meal, Italians drink only espresso ('un caffe') or 'un caffe corretto' (espresso with a splash of grappa or liqueur). If you want a larger coffee, ask for 'un caffe lungo' (long espresso) or 'un caffe americano' (espresso diluted with hot water). A 'latte' in Italy means just a glass of milk — you want 'caffe latte' or 'latte macchiato' if you want coffee with milk."
+    }
+  ]
+}

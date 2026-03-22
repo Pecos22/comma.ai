@@ -1,0 +1,224 @@
+{
+  "unit_number": 5,
+  "language": "italian",
+  "title": "Getting Around Town",
+  "pronunciation_focus_summary": "SC before E/I — when S and C appear before E or I, they make a 'sh' sound (like 'pesce', 'scusi', 'uscita'). Before A, O, U, SC sounds like 'sk' (like 'scuola').",
+  "pronunciation_guide_ids": ["it_sc_sound", "it_c_sounds"],
+  "phrases": [
+    {
+      "id": "it-05-001",
+      "text": "Dov'è la stazione della metro?",
+      "translation": "Where is the metro station?",
+      "phonetic_ipa": "doˈvɛ la statˈtsione ˈdella ˈmɛtro",
+      "phonetic_approx": "doh-VEH lah stah-TSYOH-nay DEL-lah MEH-troh",
+      "pronunciation_notes": "'Dov'è' is a contraction of 'dove è'. 'Stazione' has a 'ts' sound for the Z. Double L in 'della'.",
+      "difficulty_sounds": ["ts", "lː"],
+      "example_sentence": "Scusi, dov'è la stazione della metro più vicina?",
+      "tags": ["directions", "transport", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-002",
+      "text": "Giri a sinistra",
+      "translation": "Turn left",
+      "phonetic_ipa": "ˈdʒiri a siˈnistra",
+      "phonetic_approx": "JEE-ree ah see-NEES-trah",
+      "pronunciation_notes": "The G before I in 'giri' is soft — 'j' sound. Clear vowels throughout.",
+      "difficulty_sounds": ["dʒ"],
+      "example_sentence": "Giri a sinistra al semaforo.",
+      "tags": ["directions", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-003",
+      "text": "Giri a destra",
+      "translation": "Turn right",
+      "phonetic_ipa": "ˈdʒiri a ˈdɛstra",
+      "phonetic_approx": "JEE-ree ah DES-trah",
+      "pronunciation_notes": "Same soft G in 'giri'. 'Destra' has a clear 'e' vowel.",
+      "difficulty_sounds": ["dʒ"],
+      "example_sentence": "Giri a destra dopo la chiesa.",
+      "tags": ["directions", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-004",
+      "text": "Sempre dritto",
+      "translation": "Straight ahead",
+      "phonetic_ipa": "ˈsempre ˈdritto",
+      "phonetic_approx": "SEM-pray DREET-toh",
+      "pronunciation_notes": "Double T in 'dritto' — hold the T sound. Roll the R in both words.",
+      "difficulty_sounds": ["r", "tː"],
+      "example_sentence": "Vada sempre dritto per duecento metri.",
+      "tags": ["directions", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-005",
+      "text": "Scusi, dov'è l'uscita?",
+      "translation": "Excuse me, where is the exit?",
+      "phonetic_ipa": "ˈskuzi doˈvɛ luˈʃita",
+      "phonetic_approx": "SKOO-zee doh-VEH loo-SHEE-tah",
+      "pronunciation_notes": "Key contrast! 'Scusi' — SC before U = 'sk' sound. 'Uscita' — SC before I = 'sh' sound. Same letters, different sounds!",
+      "difficulty_sounds": ["sk", "ʃ"],
+      "example_sentence": "Scusi, dov'è l'uscita più vicina?",
+      "tags": ["directions", "essential", "pronunciation"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-006",
+      "text": "È lontano?",
+      "translation": "Is it far?",
+      "phonetic_ipa": "ɛ lonˈtano",
+      "phonetic_approx": "eh lohn-TAH-noh",
+      "pronunciation_notes": "Simple and useful. Clear vowels, stress on 'TA'.",
+      "difficulty_sounds": [],
+      "example_sentence": "Il Colosseo, è lontano da qui?",
+      "tags": ["directions", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-007",
+      "text": "È qui vicino",
+      "translation": "It's nearby",
+      "phonetic_ipa": "ɛ kwi viˈtʃino",
+      "phonetic_approx": "eh kwee vee-CHEE-noh",
+      "pronunciation_notes": "The C before I in 'vicino' makes a 'ch' sound. 'Qui' — here the 'qu' is 'kw'.",
+      "difficulty_sounds": ["tʃ"],
+      "example_sentence": "Non si preoccupi, è qui vicino.",
+      "tags": ["directions", "answer"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-008",
+      "text": "Mi sono perso/a",
+      "translation": "I am lost",
+      "phonetic_ipa": "mi ˈsono ˈperso",
+      "phonetic_approx": "mee SOH-noh PAIR-soh",
+      "pronunciation_notes": "Use 'perso' if male, 'persa' if female. Roll the R. Simple vowels throughout.",
+      "difficulty_sounds": ["r"],
+      "example_sentence": "Mi scusi, mi sono perso. Può aiutarmi?",
+      "tags": ["directions", "essential", "emergency"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-009",
+      "text": "La fermata dell'autobus",
+      "translation": "The bus stop",
+      "phonetic_ipa": "la ferˈmata delˈlautobus",
+      "phonetic_approx": "lah fair-MAH-tah del-LOW-toh-boos",
+      "pronunciation_notes": "Roll the R in 'fermata'. 'Dell'autobus' — the double L and the contraction.",
+      "difficulty_sounds": ["r", "lː"],
+      "example_sentence": "La fermata dell'autobus è dietro l'angolo.",
+      "tags": ["directions", "transport"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-010",
+      "text": "Un biglietto, per favore",
+      "translation": "A ticket, please",
+      "phonetic_ipa": "um biʎˈʎetto per faˈvore",
+      "phonetic_approx": "oon beel-YET-toh pair fah-VOH-ray",
+      "pronunciation_notes": "The 'gli' in 'biglietto' is the GL sound. Double T — hold it. Essential for transport.",
+      "difficulty_sounds": ["ʎ", "tː"],
+      "example_sentence": "Un biglietto di sola andata per Roma, per favore.",
+      "tags": ["transport", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-011",
+      "text": "A che ora parte il treno?",
+      "translation": "What time does the train leave?",
+      "phonetic_ipa": "a ke ˈora ˈparte il ˈtreno",
+      "phonetic_approx": "ah kay OH-rah PAHR-tay eel TRAY-noh",
+      "pronunciation_notes": "'Che' — CH before E = hard K sound (not 'ch'!). Roll the R in 'ora', 'parte', 'treno'.",
+      "difficulty_sounds": ["k", "r"],
+      "example_sentence": "Scusi, a che ora parte il prossimo treno per Firenze?",
+      "tags": ["transport", "question", "time"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-012",
+      "text": "Cerco...",
+      "translation": "I'm looking for...",
+      "phonetic_ipa": "ˈtʃerko",
+      "phonetic_approx": "CHAIR-koh",
+      "pronunciation_notes": "C before E = 'ch' sound. But C before O = hard K. Both sounds in one word: ch-er-k-o.",
+      "difficulty_sounds": ["tʃ", "k"],
+      "example_sentence": "Cerco la piazza del Duomo.",
+      "tags": ["directions", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-013",
+      "text": "Può indicarmi la strada?",
+      "translation": "Can you show me the way?",
+      "phonetic_ipa": "pwɔ indiˈkarmi la ˈstrada",
+      "phonetic_approx": "pwoh een-dee-KAHR-mee lah STRAH-dah",
+      "pronunciation_notes": "'Può' has the 'wo' diphthong. Roll the R in 'indicarmi' and 'strada'.",
+      "difficulty_sounds": ["r", "wo"],
+      "example_sentence": "Scusi, può indicarmi la strada per il centro?",
+      "tags": ["directions", "question", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-014",
+      "text": "Sono cinque minuti a piedi",
+      "translation": "It's five minutes on foot",
+      "phonetic_ipa": "ˈsono ˈtʃinkwe miˈnuti a ˈpjɛdi",
+      "phonetic_approx": "SOH-noh CHEEN-kway mee-NOO-tee ah PYEH-dee",
+      "pronunciation_notes": "'Cinque' — C before I = 'ch'. 'Que' = 'kway'. Every vowel is clearly pronounced.",
+      "difficulty_sounds": ["tʃ", "kw"],
+      "example_sentence": "Non è lontano, sono cinque minuti a piedi.",
+      "tags": ["directions", "distance"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-05-015",
+      "text": "La prossima fermata",
+      "translation": "The next stop",
+      "phonetic_ipa": "la ˈprossima ferˈmata",
+      "phonetic_approx": "lah PROHS-see-mah fair-MAH-tah",
+      "pronunciation_notes": "Double S in 'prossima' — hold the S sound. Roll the R in 'fermata'.",
+      "difficulty_sounds": ["sː", "r"],
+      "example_sentence": "Scendo alla prossima fermata.",
+      "tags": ["transport", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "it-05-d01",
+      "context": "Asking for directions in the street",
+      "exchanges": [
+        { "speaker": "you", "text": "Scusi, cerco la stazione centrale.", "translation": "Excuse me, I'm looking for the central station.", "phonetic_approx": "SKOO-zee, CHAIR-koh lah stah-TSYOH-nay chen-TRAH-lay" },
+        { "speaker": "other", "text": "Certo! Vada sempre dritto, poi giri a sinistra al semaforo.", "translation": "Of course! Go straight ahead, then turn left at the traffic light.", "phonetic_approx": "CHAIR-toh! VAH-dah SEM-pray DREET-toh, poy JEE-ree ah see-NEES-trah ahl say-MAH-foh-roh" },
+        { "speaker": "you", "text": "È lontano?", "translation": "Is it far?", "phonetic_approx": "eh lohn-TAH-noh?" },
+        { "speaker": "other", "text": "No, sono dieci minuti a piedi.", "translation": "No, it's ten minutes on foot.", "phonetic_approx": "NOH, SOH-noh DYEH-chee mee-NOO-tee ah PYEH-dee" }
+      ],
+      "notes": "Italians are generally very helpful with directions. Use 'scusi' (formal) or 'scusa' (informal) to get someone's attention politely."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "it-05-cn01",
+      "title": "Getting around Italian cities",
+      "content": "Italian cities have excellent train connections via Trenitalia and Italo. For city transport, most cities use a combination of buses, trams, and metro (Rome, Milan, Naples have metro systems). Validate your ticket before boarding — there are machines on buses and at metro stations. Fines for unvalidated tickets are steep (around 50 euros). Walking is often the best way to explore Italian city centers, as many are pedestrian-only zones (ZTL — Zona a Traffico Limitato)."
+    }
+  ]
+}

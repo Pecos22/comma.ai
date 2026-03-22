@@ -1,0 +1,234 @@
+{
+  "unit_number": 3,
+  "language": "french",
+  "title": "At a Café / Bar",
+  "pronunciation_focus_summary": "Silent final consonants — French words often end with unspoken letters. 'Café' ends on the 'ay' sound, not the 'f'. Learning which finals are silent is key to sounding natural.",
+  "pronunciation_guide_ids": ["fr_silent_letters", "fr_nasal_vowels"],
+  "phrases": [
+    {
+      "id": "fr-03-001",
+      "text": "Un café, s'il vous plaît",
+      "translation": "A coffee, please",
+      "phonetic_ipa": "œ̃ kafe sil vu plɛ",
+      "phonetic_approx": "uhn kah-FAY seel voo PLEH",
+      "pronunciation_notes": "The 'é' in 'café' is a closed E — like 'ay'. The final 't' in 'plaît' is silent.",
+      "difficulty_sounds": ["œ̃", "e", "ɛ"],
+      "example_sentence": "Bonjour, un café, s'il vous plaît.",
+      "tags": ["café", "ordering", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-002",
+      "text": "Un thé",
+      "translation": "A tea",
+      "phonetic_ipa": "œ̃ te",
+      "phonetic_approx": "uhn TAY",
+      "pronunciation_notes": "Short and simple. The 'é' is 'ay'. The nasal 'un' starts the phrase.",
+      "difficulty_sounds": ["œ̃"],
+      "example_sentence": "Un thé vert, s'il vous plaît.",
+      "tags": ["café", "ordering", "drinks"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-003",
+      "text": "Un chocolat chaud",
+      "translation": "A hot chocolate",
+      "phonetic_ipa": "œ̃ ʃɔkɔla ʃo",
+      "phonetic_approx": "uhn shoh-koh-LAH SHOH",
+      "pronunciation_notes": "The final 't' in 'chocolat' and 'd' in 'chaud' are both silent. 'Ch' in French = 'sh' sound.",
+      "difficulty_sounds": ["ʃ", "ɔ"],
+      "example_sentence": "Un chocolat chaud avec de la crème.",
+      "tags": ["café", "ordering", "drinks"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-004",
+      "text": "De l'eau, s'il vous plaît",
+      "translation": "Some water, please",
+      "phonetic_ipa": "də lo sil vu plɛ",
+      "phonetic_approx": "duh LOH seel voo PLEH",
+      "pronunciation_notes": "The 'eau' is pronounced 'oh' — all three letters make one sound. This is very common in French.",
+      "difficulty_sounds": ["o"],
+      "example_sentence": "De l'eau plate ou gazeuse ?",
+      "tags": ["café", "ordering", "drinks", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-005",
+      "text": "Un verre de vin rouge",
+      "translation": "A glass of red wine",
+      "phonetic_ipa": "œ̃ vɛʁ də vɛ̃ ʁuʒ",
+      "phonetic_approx": "uhn VEHR duh VAHN ROOZH",
+      "pronunciation_notes": "The 'in' in 'vin' is a nasal vowel. 'Rouge' ends with a 'zh' sound. Two French R sounds here.",
+      "difficulty_sounds": ["ɛ̃", "ʁ", "ʒ"],
+      "example_sentence": "Un verre de vin rouge de la région.",
+      "tags": ["café", "ordering", "drinks", "wine"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-006",
+      "text": "Une bière",
+      "translation": "A beer",
+      "phonetic_ipa": "yn bjɛʁ",
+      "phonetic_approx": "oon BYEHR",
+      "pronunciation_notes": "The 'u' in 'une' is the French U — lips rounded forward, tongue at front. 'Bière' has the open È sound.",
+      "difficulty_sounds": ["y", "ɛ", "ʁ"],
+      "example_sentence": "Une bière blonde, s'il vous plaît.",
+      "tags": ["café", "ordering", "drinks"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-007",
+      "text": "Un jus d'orange",
+      "translation": "An orange juice",
+      "phonetic_ipa": "œ̃ ʒy dɔʁɑ̃ʒ",
+      "phonetic_approx": "uhn ZHOO doh-RAHNZH",
+      "pronunciation_notes": "The 'u' in 'jus' is the French U. The 'an' in 'orange' is a nasal vowel. Final 'e' after 'g' makes the 'g' soft.",
+      "difficulty_sounds": ["ʒ", "y", "ɑ̃"],
+      "example_sentence": "Un jus d'orange pressé, s'il vous plaît.",
+      "tags": ["café", "ordering", "drinks"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-008",
+      "text": "L'addition, s'il vous plaît",
+      "translation": "The check, please",
+      "phonetic_ipa": "ladisjɔ̃ sil vu plɛ",
+      "phonetic_approx": "lah-dee-SYOHN seel voo PLEH",
+      "pronunciation_notes": "The 'tion' in French is pronounced 'syohn' with a nasal ending — unlike the English 'shun'.",
+      "difficulty_sounds": ["ɔ̃"],
+      "example_sentence": "L'addition, s'il vous plaît. Nous sommes pressés.",
+      "tags": ["café", "restaurant", "essential", "paying"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-009",
+      "text": "Je voudrais un croque-monsieur",
+      "translation": "I would like a croque-monsieur",
+      "phonetic_ipa": "ʒə vudʁɛ œ̃ kʁɔk məsjø",
+      "phonetic_approx": "zhuh voo-DREH uhn KROK muh-SYUH",
+      "pronunciation_notes": "The 'ais' in 'voudrais' is an open E sound. The French R appears twice. 'Monsieur' is 'muh-syuh', not 'mon-see-ur'.",
+      "difficulty_sounds": ["ʁ", "ɛ", "ø"],
+      "example_sentence": "Je voudrais un croque-monsieur et un café.",
+      "tags": ["café", "ordering", "food"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-010",
+      "text": "Un croissant",
+      "translation": "A croissant",
+      "phonetic_ipa": "œ̃ kʁwasɑ̃",
+      "phonetic_approx": "uhn kwah-SAHN",
+      "pronunciation_notes": "The 'oi' makes a 'wah' sound. The final 'ant' is the nasal 'ahn' — don't pronounce the 't'.",
+      "difficulty_sounds": ["ʁ", "wa", "ɑ̃"],
+      "example_sentence": "Un croissant au beurre, s'il vous plaît.",
+      "tags": ["café", "ordering", "food", "breakfast"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-011",
+      "text": "Avec du lait",
+      "translation": "With milk",
+      "phonetic_ipa": "avɛk dy lɛ",
+      "phonetic_approx": "ah-VEK doo LEH",
+      "pronunciation_notes": "The final 'c' in 'avec' IS pronounced (exception to silent finals rule). The 't' in 'lait' is silent.",
+      "difficulty_sounds": ["y", "ɛ"],
+      "example_sentence": "Un café avec du lait, s'il vous plaît.",
+      "tags": ["café", "modifier"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-012",
+      "text": "Sans sucre",
+      "translation": "Without sugar",
+      "phonetic_ipa": "sɑ̃ sykʁ",
+      "phonetic_approx": "sahn SOOKR",
+      "pronunciation_notes": "The 'an' in 'sans' is nasal. The 'u' in 'sucre' is the French U. Final 'e' is barely pronounced.",
+      "difficulty_sounds": ["ɑ̃", "y", "ʁ"],
+      "example_sentence": "Un thé sans sucre, merci.",
+      "tags": ["café", "modifier"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-013",
+      "text": "C'est combien ?",
+      "translation": "How much is it?",
+      "phonetic_ipa": "sɛ kɔ̃bjɛ̃",
+      "phonetic_approx": "seh kohn-BYEHN",
+      "pronunciation_notes": "Two nasal vowels in 'combien': 'om' (ɔ̃) and 'ien' (ɛ̃). Rising intonation for the question.",
+      "difficulty_sounds": ["ɔ̃", "ɛ̃"],
+      "example_sentence": "C'est combien, le café ?",
+      "tags": ["café", "paying", "question", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-014",
+      "text": "Est-ce que je peux avoir...",
+      "translation": "Can I have...",
+      "phonetic_ipa": "ɛs kə ʒə pø avwaʁ",
+      "phonetic_approx": "ess kuh zhuh PUH ah-VWAHR",
+      "pronunciation_notes": "'Est-ce que' is the standard question formula — flows as one unit 'ess-kuh'. The 'eu' in 'peux' is the rounded 'uh' sound.",
+      "difficulty_sounds": ["ø", "wa", "ʁ"],
+      "example_sentence": "Est-ce que je peux avoir la carte ?",
+      "tags": ["café", "ordering", "question", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-03-015",
+      "text": "C'est délicieux",
+      "translation": "It's delicious",
+      "phonetic_ipa": "sɛ delisjø",
+      "phonetic_approx": "seh day-lee-SYUH",
+      "pronunciation_notes": "The 'ieux' ending sounds like 'yuh' with the French 'eu' vowel. The 'é' in 'délicieux' is a closed E.",
+      "difficulty_sounds": ["ø", "e"],
+      "example_sentence": "Ce croissant, c'est délicieux !",
+      "tags": ["café", "compliment", "food"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "fr-03-d01",
+      "context": "Ordering at a Parisian café",
+      "exchanges": [
+        { "speaker": "waiter", "text": "Bonjour ! Qu'est-ce que vous désirez ?", "translation": "Hello! What would you like?", "phonetic_approx": "bohn-ZHOOR! kess kuh voo day-zee-RAY?" },
+        { "speaker": "you", "text": "Bonjour ! Un café et un croissant, s'il vous plaît.", "translation": "Hello! A coffee and a croissant, please.", "phonetic_approx": "bohn-ZHOOR! uhn kah-FAY ay uhn kwah-SAHN seel voo PLEH" },
+        { "speaker": "waiter", "text": "Très bien. En terrasse ou à l'intérieur ?", "translation": "Very well. Terrace or inside?", "phonetic_approx": "treh BYEHN. ahn teh-RASS oo ah lahn-tay-RYUHR?" },
+        { "speaker": "you", "text": "En terrasse, merci.", "translation": "On the terrace, thank you.", "phonetic_approx": "ahn teh-RASS, mehr-SEE" }
+      ],
+      "notes": "In French cafés, sitting on the terrace (terrasse) is often more expensive than standing at the bar (au comptoir). Always greet with 'Bonjour' before ordering."
+    },
+    {
+      "id": "fr-03-d02",
+      "context": "Asking for the bill at a café",
+      "exchanges": [
+        { "speaker": "you", "text": "Excusez-moi, l'addition s'il vous plaît.", "translation": "Excuse me, the check please.", "phonetic_approx": "ex-koo-ZAY mwah, lah-dee-SYOHN seel voo PLEH" },
+        { "speaker": "waiter", "text": "Bien sûr. Ça fait sept euros cinquante.", "translation": "Of course. That's seven euros fifty.", "phonetic_approx": "byehn SOOR. sah FEH set uh-ROH sahn-KAHNT" },
+        { "speaker": "you", "text": "Voilà. Merci beaucoup !", "translation": "Here you go. Thank you very much!", "phonetic_approx": "vwah-LAH. mehr-SEE boh-KOO!" }
+      ],
+      "notes": "In France, tipping is not required as service is included (service compris). However, leaving small change or rounding up is appreciated."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "fr-03-cn01",
+      "title": "French café culture",
+      "content": "Cafés are central to French social life. It's perfectly normal to sit for hours with a single coffee. There are usually three price zones: 'au comptoir' (standing at the bar) is cheapest, 'en salle' (sitting inside) is mid-range, and 'en terrasse' (outside terrace) is most expensive. Always say 'Bonjour' when entering and when addressing the server."
+    }
+  ]
+}

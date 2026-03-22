@@ -1,0 +1,311 @@
+{
+  "unit_number": 1,
+  "language": "french",
+  "title": "Greetings & Basics",
+  "pronunciation_focus_summary": "Nasal vowels — the sounds that make French sound French. Found in bonjour, bien, bon, and dozens of common words. Learn to let air flow through your nose while shaping vowels with your mouth.",
+  "pronunciation_guide_ids": ["fr_nasal_vowels", "fr_silent_letters"],
+  "phrases": [
+    {
+      "id": "fr-01-001",
+      "text": "Bonjour",
+      "translation": "Hello / Good day",
+      "phonetic_ipa": "b\u0254\u0303\u0292u\u0281",
+      "phonetic_approx": "bohn-ZHOOR",
+      "pronunciation_notes": "The 'on' is a nasal vowel \u2014 say 'on' but let air flow through your nose. The 'j' sounds like 'zh' (like the 's' in 'measure'). The final 'r' is the soft French R, produced in the back of the throat.",
+      "difficulty_sounds": ["\u0254\u0303", "\u0292", "\u0281"],
+      "example_sentence": "Bonjour, comment allez-vous ?",
+      "tags": ["greeting", "formal", "informal", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-002",
+      "text": "Bonsoir",
+      "translation": "Good evening",
+      "phonetic_ipa": "b\u0254\u0303swa\u0281",
+      "phonetic_approx": "bohn-SWAHR",
+      "pronunciation_notes": "Same nasal 'on' as bonjour. The 'soir' contains the 'wa' sound \u2014 round your lips. The final 'r' is the soft uvular R.",
+      "difficulty_sounds": ["\u0254\u0303", "wa", "\u0281"],
+      "example_sentence": "Bonsoir, une table pour deux, s'il vous pla\u00eet.",
+      "tags": ["greeting", "formal", "evening"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-003",
+      "text": "Salut",
+      "translation": "Hi / Bye (informal)",
+      "phonetic_ipa": "saly",
+      "phonetic_approx": "sah-LUU",
+      "pronunciation_notes": "The final 't' is silent. The 'u' is the French U sound \u2014 purse your lips tightly and say 'ee'. It is NOT the English 'oo' sound.",
+      "difficulty_sounds": ["y"],
+      "example_sentence": "Salut, \u00e7a va ?",
+      "tags": ["greeting", "informal", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-004",
+      "text": "Au revoir",
+      "translation": "Goodbye",
+      "phonetic_ipa": "o\u0281\u0259vwa\u0281",
+      "phonetic_approx": "oh-ruh-VWAHR",
+      "pronunciation_notes": "Two uvular R sounds here. The 'au' sounds like 'oh'. The 'oi' makes the 'wa' sound. Let the R's be soft and throaty.",
+      "difficulty_sounds": ["\u0281", "wa"],
+      "example_sentence": "Au revoir et bonne journ\u00e9e !",
+      "tags": ["greeting", "farewell", "formal", "informal", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-005",
+      "text": "S'il vous pla\u00eet",
+      "translation": "Please (formal)",
+      "phonetic_ipa": "sil vu pl\u025b",
+      "phonetic_approx": "seel voo PLEH",
+      "pronunciation_notes": "Three words that flow together as one. The final 't' is silent. The '\u00ea' in 'pla\u00eet' makes an open 'eh' sound (like 'bed').",
+      "difficulty_sounds": ["\u025b"],
+      "example_sentence": "Un caf\u00e9, s'il vous pla\u00eet.",
+      "tags": ["essential", "formal", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-006",
+      "text": "Merci",
+      "translation": "Thank you",
+      "phonetic_ipa": "m\u025b\u0281si",
+      "phonetic_approx": "mair-SEE",
+      "pronunciation_notes": "The 'er' makes an open 'eh' sound, not 'ur'. The 'r' is the soft French R. Stress falls on the second syllable.",
+      "difficulty_sounds": ["\u025b", "\u0281"],
+      "example_sentence": "Merci, c'est tr\u00e8s gentil.",
+      "tags": ["essential", "polite", "formal", "informal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-007",
+      "text": "Merci beaucoup",
+      "translation": "Thank you very much",
+      "phonetic_ipa": "m\u025b\u0281si boku",
+      "phonetic_approx": "mair-SEE boh-KOO",
+      "pronunciation_notes": "The 'eau' in beaucoup makes an 'oh' sound. The final 'p' is silent. The 'ou' is a simple 'oo' sound \u2014 different from the French U.",
+      "difficulty_sounds": ["\u025b", "\u0281"],
+      "example_sentence": "Merci beaucoup pour votre aide.",
+      "tags": ["essential", "polite", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-008",
+      "text": "De rien",
+      "translation": "You're welcome",
+      "phonetic_ipa": "d\u0259 \u0281j\u025b\u0303",
+      "phonetic_approx": "duh RYEHN",
+      "pronunciation_notes": "The 'e' in 'de' is a schwa \u2014 a quick, neutral 'uh'. The 'ien' is a nasal vowel: say 'ee-eh' but nasalize it. Don't pronounce the final 'n'.",
+      "difficulty_sounds": ["\u025b\u0303", "\u0281"],
+      "example_sentence": "De rien, avec plaisir !",
+      "tags": ["essential", "polite", "informal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-009",
+      "text": "Excusez-moi",
+      "translation": "Excuse me",
+      "phonetic_ipa": "\u025bkskyze mwa",
+      "phonetic_approx": "ex-kuu-ZAY mwah",
+      "pronunciation_notes": "The 'u' in 'excusez' is the French U (lips pursed, tongue forward). The 'ez' ending sounds like 'ay'. The 'moi' sounds like 'mwa'.",
+      "difficulty_sounds": ["y", "e"],
+      "example_sentence": "Excusez-moi, o\u00f9 sont les toilettes ?",
+      "tags": ["essential", "polite", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-010",
+      "text": "Pardon",
+      "translation": "Sorry / Pardon me",
+      "phonetic_ipa": "pa\u0281d\u0254\u0303",
+      "phonetic_approx": "pahr-DOHN",
+      "pronunciation_notes": "The 'on' is the nasal vowel \u2014 air through the nose, don't pronounce the 'n'. The 'r' is the uvular R. Stress is on the second syllable.",
+      "difficulty_sounds": ["\u0254\u0303", "\u0281"],
+      "example_sentence": "Pardon, vous avez l'heure ?",
+      "tags": ["essential", "polite", "formal", "informal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-011",
+      "text": "Oui",
+      "translation": "Yes",
+      "phonetic_ipa": "wi",
+      "phonetic_approx": "WEE",
+      "pronunciation_notes": "Simple and short. Sounds like English 'we'. Keep it crisp \u2014 one syllable.",
+      "difficulty_sounds": [],
+      "example_sentence": "Oui, je comprends.",
+      "tags": ["essential", "basic"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-012",
+      "text": "Non",
+      "translation": "No",
+      "phonetic_ipa": "n\u0254\u0303",
+      "phonetic_approx": "NOHN",
+      "pronunciation_notes": "This is a nasal vowel. The 'n' at the end is NOT pronounced as a consonant \u2014 instead it nasalizes the 'o'. Push air through your nose while saying 'no'.",
+      "difficulty_sounds": ["\u0254\u0303"],
+      "example_sentence": "Non, merci.",
+      "tags": ["essential", "basic"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-013",
+      "text": "Comment allez-vous ?",
+      "translation": "How are you? (formal)",
+      "phonetic_ipa": "k\u0254m\u0251\u0303 tale vu",
+      "phonetic_approx": "koh-MAHN tah-LAY VOO",
+      "pronunciation_notes": "The 'omm' creates a nasal 'oh' sound. 'ent' at the end of 'comment' is silent. The 't' of 'comment' links to 'allez' in liaison. The 'ez' sounds like 'ay'.",
+      "difficulty_sounds": ["\u0254\u0303", "\u0251\u0303"],
+      "example_sentence": "Bonjour madame, comment allez-vous ?",
+      "tags": ["greeting", "formal", "essential", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-014",
+      "text": "Tr\u00e8s bien, merci",
+      "translation": "Very well, thank you",
+      "phonetic_ipa": "t\u0281\u025b bj\u025b\u0303 m\u025b\u0281si",
+      "phonetic_approx": "treh BYEHN mair-SEE",
+      "pronunciation_notes": "The '\u00e8' in 'tr\u00e8s' is an open 'eh'. The 'ien' in 'bien' is a nasal vowel \u2014 nasalize the 'ee-eh' sound. The 's' of 'tr\u00e8s' links to 'bien' in liaison: 'treh-ZBYEHN'.",
+      "difficulty_sounds": ["\u025b", "\u025b\u0303", "\u0281"],
+      "example_sentence": "Tr\u00e8s bien, merci. Et vous ?",
+      "tags": ["greeting", "response", "formal", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-01-015",
+      "text": "Je ne comprends pas",
+      "translation": "I don't understand",
+      "phonetic_ipa": "\u0292\u0259 n\u0259 k\u0254\u0303p\u0281\u0251\u0303 p\u0251",
+      "phonetic_approx": "zhuh nuh kohn-PRAHN PAH",
+      "pronunciation_notes": "Two nasal vowels: 'om' in comprends and 'an' at the end. The 'ds' is silent. The 'j' makes the 'zh' sound. In casual speech, the 'ne' is often dropped: 'je comprends pas'.",
+      "difficulty_sounds": ["\u0292", "\u0254\u0303", "\u0251\u0303", "\u0281"],
+      "example_sentence": "D\u00e9sol\u00e9, je ne comprends pas. Pouvez-vous r\u00e9p\u00e9ter ?",
+      "tags": ["essential", "survival", "communication"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "fr-01-d01",
+      "context": "Meeting someone at a party",
+      "exchanges": [
+        {
+          "speaker": "you",
+          "text": "Bonjour !",
+          "translation": "Hello!",
+          "phonetic_approx": "bohn-ZHOOR"
+        },
+        {
+          "speaker": "other",
+          "text": "Bonjour ! Comment allez-vous ?",
+          "translation": "Hello! How are you?",
+          "phonetic_approx": "bohn-ZHOOR koh-MAHN tah-LAY VOO"
+        },
+        {
+          "speaker": "you",
+          "text": "Tr\u00e8s bien, merci. Et vous ?",
+          "translation": "Very well, thank you. And you?",
+          "phonetic_approx": "treh BYEHN mair-SEE. ay VOO?"
+        },
+        {
+          "speaker": "other",
+          "text": "Bien, merci !",
+          "translation": "Well, thank you!",
+          "phonetic_approx": "BYEHN mair-SEE"
+        }
+      ],
+      "notes": "Use 'vous' (formal you) with people you just met or in professional situations. This is the safe default."
+    },
+    {
+      "id": "fr-01-d02",
+      "context": "Asking for help on the street",
+      "exchanges": [
+        {
+          "speaker": "you",
+          "text": "Excusez-moi !",
+          "translation": "Excuse me!",
+          "phonetic_approx": "ex-kuu-ZAY mwah"
+        },
+        {
+          "speaker": "other",
+          "text": "Oui ?",
+          "translation": "Yes?",
+          "phonetic_approx": "WEE"
+        },
+        {
+          "speaker": "you",
+          "text": "Pardon, je ne comprends pas. Vous parlez anglais ?",
+          "translation": "Sorry, I don't understand. Do you speak English?",
+          "phonetic_approx": "pahr-DOHN zhuh nuh kohn-PRAHN PAH. voo pahr-LAY ahn-GLEH?"
+        },
+        {
+          "speaker": "other",
+          "text": "Un peu. Je peux vous aider.",
+          "translation": "A little. I can help you.",
+          "phonetic_approx": "uhn PUH. zhuh PUH vooz ay-DAY."
+        }
+      ],
+      "notes": "Starting with 'excusez-moi' or 'pardon' is considered polite when approaching a stranger in France. Always greet before asking for help."
+    },
+    {
+      "id": "fr-01-d03",
+      "context": "Saying goodbye after a meeting",
+      "exchanges": [
+        {
+          "speaker": "you",
+          "text": "Merci beaucoup !",
+          "translation": "Thank you very much!",
+          "phonetic_approx": "mair-SEE boh-KOO"
+        },
+        {
+          "speaker": "other",
+          "text": "De rien !",
+          "translation": "You're welcome!",
+          "phonetic_approx": "duh RYEHN"
+        },
+        {
+          "speaker": "you",
+          "text": "Au revoir, bonne journ\u00e9e !",
+          "translation": "Goodbye, have a nice day!",
+          "phonetic_approx": "oh-ruh-VWAHR buhn zhoor-NAY"
+        },
+        {
+          "speaker": "other",
+          "text": "Au revoir, \u00e0 bient\u00f4t !",
+          "translation": "Goodbye, see you soon!",
+          "phonetic_approx": "oh-ruh-VWAHR ah byehn-TOH"
+        }
+      ],
+      "notes": "French people almost always add a pleasantry when saying goodbye: 'bonne journ\u00e9e' (have a good day), 'bonne soir\u00e9e' (have a good evening), or '\u00e0 bient\u00f4t' (see you soon)."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "fr-01-cn01",
+      "title": "La bise \u2014 the cheek kiss greeting",
+      "content": "In France, friends and acquaintances greet each other with 'la bise' \u2014 light kisses on alternating cheeks. The number varies by region (1-4), but 2 is most common in Paris. In professional settings, a handshake is standard. When in doubt, follow the other person's lead. Since COVID, la bise has become less automatic \u2014 many people now prefer a wave or elbow bump."
+    },
+    {
+      "id": "fr-01-cn02",
+      "title": "Always say Bonjour first",
+      "content": "In France, greeting someone before any interaction is essential. When entering a shop, say 'Bonjour'. When approaching a stranger for directions, start with 'Bonjour' or 'Excusez-moi'. Skipping the greeting and going straight to a request is considered rude. Think of 'Bonjour' as opening a social door \u2014 without it, the conversation starts on the wrong foot."
+    }
+  ]
+}

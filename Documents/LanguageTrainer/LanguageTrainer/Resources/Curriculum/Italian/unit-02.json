@@ -1,0 +1,292 @@
+{
+  "unit_number": 2,
+  "language": "italian",
+  "title": "Introducing Yourself",
+  "pronunciation_focus_summary": "The rolled R — the hallmark of Italian pronunciation. The tongue-tip trill appears in mi chiamo, arrivederci, piacere, and countless essential words. Learning to produce it (or approximate it) is key to being understood.",
+  "pronunciation_guide_ids": ["it_rolled_r", "it_double_consonants"],
+  "phrases": [
+    {
+      "id": "it-02-001",
+      "text": "Mi chiamo...",
+      "translation": "My name is... (lit. 'I call myself')",
+      "phonetic_ipa": "mi kjamo",
+      "phonetic_approx": "mee KYAH-moh",
+      "pronunciation_notes": "The 'ch' before 'i' is a hard 'k' sound in Italian. 'Chiamo' is two syllables: KYAH-moh. The 'i' after 'ch' is not a separate syllable — it just signals the hard 'k'.",
+      "difficulty_sounds": ["k"],
+      "example_sentence": "Piacere, mi chiamo Marco.",
+      "tags": ["introduction", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-002",
+      "text": "Sono...",
+      "translation": "I am...",
+      "phonetic_ipa": "sono",
+      "phonetic_approx": "SOH-noh",
+      "pronunciation_notes": "Both 'o' vowels are closed. Clean, simple pronunciation. Used for nationality, profession, or identity: 'Sono americano', 'Sono insegnante'.",
+      "difficulty_sounds": ["o"],
+      "example_sentence": "Sono americano.",
+      "tags": ["introduction", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-003",
+      "text": "Abito a...",
+      "translation": "I live in...",
+      "phonetic_ipa": "abito a",
+      "phonetic_approx": "AH-bee-toh ah",
+      "pronunciation_notes": "Stress on the first syllable: AH-bee-toh. The 't' is dental — touch your tongue to your upper teeth, not the ridge behind them like in English.",
+      "difficulty_sounds": ["t"],
+      "example_sentence": "Abito a Roma.",
+      "tags": ["introduction", "location"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-004",
+      "text": "Vengo da...",
+      "translation": "I come from...",
+      "phonetic_ipa": "veŋɡo da",
+      "phonetic_approx": "VEHN-goh dah",
+      "pronunciation_notes": "The 'ng' combination is like in English 'finger'. The 'g' is hard. Clean, two syllables for 'vengo'.",
+      "difficulty_sounds": ["ŋɡ"],
+      "example_sentence": "Vengo da New York.",
+      "tags": ["introduction", "origin"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-005",
+      "text": "Piacere",
+      "translation": "Nice to meet you / Pleasure",
+      "phonetic_ipa": "pjatʃere",
+      "phonetic_approx": "pyah-CHEH-reh",
+      "pronunciation_notes": "Three syllables: pyah-CHEH-reh. The 'c' before 'e' is 'ch' as in 'church'. The final 'e' is always pronounced. Say this while shaking hands.",
+      "difficulty_sounds": ["tʃ", "r"],
+      "example_sentence": "Piacere, mi chiamo Anna.",
+      "tags": ["introduction", "polite", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-006",
+      "text": "Come si chiama?",
+      "translation": "What is your name? (formal)",
+      "phonetic_ipa": "kome si kjama",
+      "phonetic_approx": "KOH-meh see KYAH-mah",
+      "pronunciation_notes": "Formal form using 'si' (oneself, formal). 'Chiama' has a hard 'k' sound. In informal settings, use 'Come ti chiami?'.",
+      "difficulty_sounds": ["k"],
+      "example_sentence": "Mi scusi, come si chiama?",
+      "tags": ["introduction", "question", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-007",
+      "text": "Quanti anni ha?",
+      "translation": "How old are you? (formal, lit. 'How many years do you have?')",
+      "phonetic_ipa": "kwanti anni a",
+      "phonetic_approx": "KWAHN-tee AHN-nee ah",
+      "pronunciation_notes": "Double 'n' in 'anni' — hold the 'n' longer. The 'h' in 'ha' is completely silent in Italian. 'Qu' is always 'kw'.",
+      "difficulty_sounds": ["nː", "kw"],
+      "example_sentence": "Quanti anni ha, signora?",
+      "tags": ["introduction", "question", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-008",
+      "text": "Ho trent'anni",
+      "translation": "I am thirty years old (lit. 'I have thirty years')",
+      "phonetic_ipa": "ɔ trentanni",
+      "phonetic_approx": "oh trehn-TAHN-nee",
+      "pronunciation_notes": "The 'h' in 'ho' is silent. 'Trent'anni' elides — the words flow together with a double 'n' sound. Italian expresses age with 'avere' (to have), not 'essere' (to be).",
+      "difficulty_sounds": ["nː", "r"],
+      "example_sentence": "Ho trent'anni e abito a Milano.",
+      "tags": ["introduction", "age"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-009",
+      "text": "Parlo un po' di italiano",
+      "translation": "I speak a little Italian",
+      "phonetic_ipa": "parlo um pɔ di italiano",
+      "phonetic_approx": "PAHR-loh oom POH dee ee-tah-LYAH-noh",
+      "pronunciation_notes": "The rolled 'r' in 'parlo' is important. 'Po'' has an apostrophe because it is shortened from 'poco'. 'Italiano' has five syllables with stress on 'a'.",
+      "difficulty_sounds": ["r", "ɔ"],
+      "example_sentence": "Mi scusi, parlo un po' di italiano.",
+      "tags": ["introduction", "language", "useful"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-010",
+      "text": "Non parlo bene l'italiano",
+      "translation": "I don't speak Italian well",
+      "phonetic_ipa": "non parlo bɛne litaliano",
+      "phonetic_approx": "nohn PAHR-loh BEH-neh lee-tah-LYAH-noh",
+      "pronunciation_notes": "Negation is simple — put 'non' before the verb. 'L'italiano' elides because 'italiano' starts with a vowel. Practice the rolled 'r' in 'parlo'.",
+      "difficulty_sounds": ["r", "ɛ"],
+      "example_sentence": "Mi dispiace, non parlo bene l'italiano.",
+      "tags": ["introduction", "language", "apology"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-011",
+      "text": "Sono americano/americana",
+      "translation": "I am American (m/f)",
+      "phonetic_ipa": "sono amerikano / amerikana",
+      "phonetic_approx": "SOH-noh ah-meh-ree-KAH-noh / ah-meh-ree-KAH-nah",
+      "pronunciation_notes": "Adjectives change ending based on gender: '-o' for masculine, '-a' for feminine. The 'r' in 'americano' should be tapped or rolled.",
+      "difficulty_sounds": ["r"],
+      "example_sentence": "Sono americano, vengo da Chicago.",
+      "tags": ["introduction", "nationality"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-012",
+      "text": "Parla inglese?",
+      "translation": "Do you speak English? (formal)",
+      "phonetic_ipa": "parla iŋɡleze",
+      "phonetic_approx": "PAHR-lah een-GLEH-zeh",
+      "pronunciation_notes": "The rolled 'r' in 'parla'. 'Inglese' has a hard 'g' and the 's' between vowels is voiced like 'z'. No question word needed — just raise intonation at the end.",
+      "difficulty_sounds": ["r", "z"],
+      "example_sentence": "Mi scusi, parla inglese?",
+      "tags": ["introduction", "language", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-013",
+      "text": "Non capisco",
+      "translation": "I don't understand",
+      "phonetic_ipa": "noŋ kapisko",
+      "phonetic_approx": "nohn kah-PEE-skoh",
+      "pronunciation_notes": "The 'sc' before 'o' is a hard 'sk' sound (not 'sh' — that only happens before 'e' or 'i'). Stress on the second syllable: ka-PEE-sko.",
+      "difficulty_sounds": ["sk"],
+      "example_sentence": "Mi scusi, non capisco. Puo ripetere?",
+      "tags": ["essential", "communication"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-014",
+      "text": "Puo ripetere, per favore?",
+      "translation": "Can you repeat, please? (formal)",
+      "phonetic_ipa": "pwɔ ripetere per favore",
+      "phonetic_approx": "PWOH ree-PEH-teh-reh pehr fah-VOH-reh",
+      "pronunciation_notes": "The 'uo' in 'puo' is a diphthong, one syllable. 'Ripetere' has four syllables with stress on 'pe'. Two rolled 'r' sounds to practice.",
+      "difficulty_sounds": ["r", "wɔ"],
+      "example_sentence": "Non capisco. Puo ripetere, per favore?",
+      "tags": ["essential", "communication", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-015",
+      "text": "Che lavoro fa?",
+      "translation": "What work do you do? (formal)",
+      "phonetic_ipa": "ke lavoro fa",
+      "phonetic_approx": "keh lah-VOH-roh fah",
+      "pronunciation_notes": "'Che' is 'keh' — the 'ch' in Italian is always a hard 'k'. 'Lavoro' has a clear 'v' and rolled 'r'. Simple rising intonation for the question.",
+      "difficulty_sounds": ["k", "r"],
+      "example_sentence": "Piacere, che lavoro fa?",
+      "tags": ["introduction", "work", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-016",
+      "text": "Sono insegnante",
+      "translation": "I am a teacher",
+      "phonetic_ipa": "sono inseɲɲante",
+      "phonetic_approx": "SOH-noh een-seh-NYAHN-teh",
+      "pronunciation_notes": "The 'gn' in 'insegnante' is a palatal nasal, like 'ny' in 'canyon'. Double 'n' sound in the 'gn'. No article needed with professions after 'sono'.",
+      "difficulty_sounds": ["ɲ"],
+      "example_sentence": "Sono insegnante di matematica.",
+      "tags": ["introduction", "work"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-017",
+      "text": "Piacere di conoscerLa",
+      "translation": "Pleased to meet you (very formal)",
+      "phonetic_ipa": "pjatʃere di konoʃʃerla",
+      "phonetic_approx": "pyah-CHEH-reh dee koh-NOH-shehr-lah",
+      "pronunciation_notes": "More formal than just 'piacere'. The 'sc' before 'e' is a 'sh' sound. Double 'sh' in 'conoscerLa'. 'La' (capitalized) refers to the formal 'you'.",
+      "difficulty_sounds": ["tʃ", "ʃː", "r"],
+      "example_sentence": "Piacere di conoscerLa, dottore.",
+      "tags": ["introduction", "formal", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-02-018",
+      "text": "Di dove sei?",
+      "translation": "Where are you from? (informal)",
+      "phonetic_ipa": "di dove sɛi",
+      "phonetic_approx": "dee DOH-veh SAY",
+      "pronunciation_notes": "Informal form using 'sei' (you are, informal). 'Dove' has a closed 'o'. The diphthong 'ei' in 'sei' sounds like 'ay' in 'say'.",
+      "difficulty_sounds": ["ɛi"],
+      "example_sentence": "Ciao! Di dove sei?",
+      "tags": ["introduction", "origin", "informal", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "it-02-d01",
+      "context": "Meeting a colleague at a business conference",
+      "exchanges": [
+        { "speaker": "you", "text": "Buongiorno, mi chiamo Sarah.", "translation": "Good morning, my name is Sarah.", "phonetic_approx": "bwon-JORN-oh mee KYAH-moh Sarah" },
+        { "speaker": "colleague", "text": "Piacere, mi chiamo Roberto. Di dov'e?", "translation": "Nice to meet you, my name is Roberto. Where are you from?", "phonetic_approx": "pyah-CHEH-reh mee KYAH-moh roh-BEHR-toh dee doh-VEH" },
+        { "speaker": "you", "text": "Vengo da New York. E Lei?", "translation": "I come from New York. And you?", "phonetic_approx": "VEHN-goh dah New York eh LAY" },
+        { "speaker": "colleague", "text": "Sono di Roma. Che lavoro fa?", "translation": "I'm from Rome. What work do you do?", "phonetic_approx": "SOH-noh dee ROH-mah keh lah-VOH-roh fah" },
+        { "speaker": "you", "text": "Sono insegnante. Parlo un po' di italiano.", "translation": "I'm a teacher. I speak a little Italian.", "phonetic_approx": "SOH-noh een-seh-NYAHN-teh PAHR-loh oom POH dee ee-tah-LYAH-noh" }
+      ],
+      "notes": "In business settings, always use Lei (formal you) until invited to use tu. Italians appreciate any effort to speak Italian, even imperfectly."
+    },
+    {
+      "id": "it-02-d02",
+      "context": "Meeting a friend's friend at a casual dinner",
+      "exchanges": [
+        { "speaker": "friend", "text": "Questa e la mia amica, Laura.", "translation": "This is my friend, Laura.", "phonetic_approx": "KWEH-stah eh lah MEE-ah ah-MEE-kah LOW-rah" },
+        { "speaker": "you", "text": "Ciao Laura, piacere! Mi chiamo Alex.", "translation": "Hi Laura, nice to meet you! My name is Alex.", "phonetic_approx": "CHOW LOW-rah pyah-CHEH-reh mee KYAH-moh Alex" },
+        { "speaker": "laura", "text": "Ciao! Di dove sei?", "translation": "Hi! Where are you from?", "phonetic_approx": "CHOW dee DOH-veh SAY" },
+        { "speaker": "you", "text": "Sono americano. Abito a Roma da un anno.", "translation": "I'm American. I've been living in Rome for a year.", "phonetic_approx": "SOH-noh ah-meh-ree-KAH-noh AH-bee-toh ah ROH-mah dah oon AHN-noh" },
+        { "speaker": "laura", "text": "Complimenti, parli bene l'italiano!", "translation": "Congratulations, you speak Italian well!", "phonetic_approx": "kohm-plee-MEHN-tee PAHR-lee BEH-neh lee-tah-LYAH-noh" }
+      ],
+      "notes": "When introduced through a mutual friend, it is normal to switch to 'tu' immediately, especially among people of similar age. Italians love to compliment foreigners who try to speak Italian."
+    },
+    {
+      "id": "it-02-d03",
+      "context": "At a language exchange meetup",
+      "exchanges": [
+        { "speaker": "you", "text": "Ciao! Parlo un po' di italiano.", "translation": "Hi! I speak a little Italian.", "phonetic_approx": "CHOW PAHR-loh oom POH dee ee-tah-LYAH-noh" },
+        { "speaker": "other", "text": "Bravissimo! Quanti anni hai?", "translation": "Very good! How old are you?", "phonetic_approx": "brah-VEES-see-moh KWAHN-tee AHN-nee AH-ee" },
+        { "speaker": "you", "text": "Ho trent'anni. E tu?", "translation": "I'm thirty. And you?", "phonetic_approx": "oh trehn-TAHN-nee eh TOO" },
+        { "speaker": "other", "text": "Anch'io! Parli anche altre lingue?", "translation": "Me too! Do you speak other languages too?", "phonetic_approx": "ahn-KEE-oh PAHR-lee AHN-keh AHL-treh LEEN-gweh" }
+      ],
+      "notes": "'Bravissimo' is the superlative of 'bravo' — Italians use it generously as encouragement. 'Anch'io' (me too) is a very useful phrase to learn early."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "it-02-cn01",
+      "title": "Titles matter in Italian culture",
+      "content": "Italians use professional titles much more than English speakers. A doctor is 'Dottore/Dottoressa' (and this includes anyone with a university degree, not just medical doctors). A lawyer is 'Avvocato', an engineer 'Ingegnere', a professor 'Professore/Professoressa'. Using someone's title shows respect. In formal introductions, you might hear 'Piacere, sono il Dottor Rossi' rather than just a first name. When unsure, 'Signore' (Mr.) and 'Signora' (Mrs./Ms.) are always safe."
+    },
+    {
+      "id": "it-02-cn02",
+      "title": "Italians ask personal questions — it's friendly, not nosy",
+      "content": "Don't be surprised if Italians you've just met ask about your age, marital status, family, or salary. These topics aren't considered invasive in Italian culture — they're signs of genuine interest and warmth. Questions like 'Sei sposato/a?' (Are you married?) or 'Hai figli?' (Do you have children?) are standard small talk. Feel free to answer or deflect politely, but know it comes from a place of friendliness."
+    }
+  ]
+}

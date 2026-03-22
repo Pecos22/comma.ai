@@ -1,0 +1,224 @@
+{
+  "unit_number": 4,
+  "language": "italian",
+  "title": "At a Restaurant",
+  "pronunciation_focus_summary": "GL and GN sounds — unique Italian sounds found in common food words like aglio (garlic), gnocchi, tagliatelle, and famiglia. GL sounds like 'ly' in million. GN sounds like 'ny' in canyon.",
+  "pronunciation_guide_ids": ["it_gl_sound", "it_gn_sound"],
+  "phrases": [
+    {
+      "id": "it-04-001",
+      "text": "Vorrei prenotare un tavolo",
+      "translation": "I would like to reserve a table",
+      "phonetic_ipa": "vorˈrei prenoˈtare un ˈtavolo",
+      "phonetic_approx": "vor-RAY pray-noh-TAH-ray oon TAH-voh-loh",
+      "pronunciation_notes": "Roll the R in 'vorrei' and 'prenotare'. Stress on the second-to-last syllable of 'tavolo'.",
+      "difficulty_sounds": ["r"],
+      "example_sentence": "Vorrei prenotare un tavolo per stasera.",
+      "tags": ["restaurant", "reservation", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-002",
+      "text": "Un tavolo per due, per favore",
+      "translation": "A table for two, please",
+      "phonetic_ipa": "un ˈtavolo per ˈdue per faˈvore",
+      "phonetic_approx": "oon TAH-voh-loh pair DOO-ay pair fah-VOH-ray",
+      "pronunciation_notes": "'Due' is two syllables: DOO-ay. 'Favore' stress on the second syllable.",
+      "difficulty_sounds": ["r"],
+      "example_sentence": "Buonasera, un tavolo per due, per favore.",
+      "tags": ["restaurant", "seating", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-003",
+      "text": "Il menù, per favore",
+      "translation": "The menu, please",
+      "phonetic_ipa": "il meˈnu per faˈvore",
+      "phonetic_approx": "eel may-NOO pair fah-VOH-ray",
+      "pronunciation_notes": "Stress falls on the last syllable of 'menù' (indicated by the accent). Clear, open vowels.",
+      "difficulty_sounds": [],
+      "example_sentence": "Potrei avere il menù, per favore?",
+      "tags": ["restaurant", "ordering", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-004",
+      "text": "Cosa consiglia?",
+      "translation": "What do you recommend?",
+      "phonetic_ipa": "ˈkɔza konˈsiʎʎa",
+      "phonetic_approx": "KOH-zah kon-SEEL-yah",
+      "pronunciation_notes": "The 'gli' in 'consiglia' is the GL sound — tongue presses against the palate, like 'ly' in 'million'.",
+      "difficulty_sounds": ["ʎ"],
+      "example_sentence": "Cosa consiglia come primo piatto?",
+      "tags": ["restaurant", "ordering", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-005",
+      "text": "Prendo il primo",
+      "translation": "I'll have the first course",
+      "phonetic_ipa": "ˈprendo il ˈprimo",
+      "phonetic_approx": "PREN-doh eel PREE-moh",
+      "pronunciation_notes": "Both words start with 'pr' — practice the rolled R after P. Clear vowels on every syllable.",
+      "difficulty_sounds": ["r"],
+      "example_sentence": "Prendo il primo: gli spaghetti alla carbonara.",
+      "tags": ["restaurant", "ordering"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-006",
+      "text": "Gli gnocchi",
+      "translation": "The gnocchi",
+      "phonetic_ipa": "ʎi ˈɲɔkki",
+      "phonetic_approx": "lyee NYOHK-kee",
+      "pronunciation_notes": "Double feature! 'Gli' uses the GL sound (ly). 'Gnocchi' uses the GN sound (ny) plus double CC (k-k). Hold the K sound longer.",
+      "difficulty_sounds": ["ʎ", "ɲ", "kː"],
+      "example_sentence": "Gli gnocchi alla sorrentina sono buonissimi.",
+      "tags": ["restaurant", "food", "pronunciation"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-007",
+      "text": "Le tagliatelle",
+      "translation": "The tagliatelle",
+      "phonetic_ipa": "le taʎʎaˈtɛlle",
+      "phonetic_approx": "lay tah-lyah-TEL-lay",
+      "pronunciation_notes": "The 'gli' in 'tagliatelle' is the GL sound. Double 'l' in 'telle' — hold it slightly longer.",
+      "difficulty_sounds": ["ʎ", "lː"],
+      "example_sentence": "Le tagliatelle al ragù sono il piatto tipico di Bologna.",
+      "tags": ["restaurant", "food", "pronunciation"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-008",
+      "text": "L'aglio e olio",
+      "translation": "Garlic and oil",
+      "phonetic_ipa": "ˈlaʎʎo e ˈɔlio",
+      "phonetic_approx": "LAH-lyoh ay OH-lyoh",
+      "pronunciation_notes": "The GL in 'aglio' is the key sound. 'Olio' also has a 'ly' quality. This pasta dish is great GL practice!",
+      "difficulty_sounds": ["ʎ"],
+      "example_sentence": "Spaghetti aglio e olio — semplice ma delizioso.",
+      "tags": ["restaurant", "food", "pronunciation"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-009",
+      "text": "Sono vegetariano/a",
+      "translation": "I am vegetarian",
+      "phonetic_ipa": "ˈsono vedʒetaˈrjano",
+      "phonetic_approx": "SOH-noh veh-jeh-tah-RYAH-noh",
+      "pronunciation_notes": "The 'g' before 'e' in 'vegetariano' is soft like 'j'. Roll the R. Use -o for male, -a for female.",
+      "difficulty_sounds": ["dʒ", "r"],
+      "example_sentence": "Sono vegetariana. Avete piatti senza carne?",
+      "tags": ["restaurant", "dietary", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-010",
+      "text": "È delizioso!",
+      "translation": "It's delicious!",
+      "phonetic_ipa": "ɛ deliˈtsjoso",
+      "phonetic_approx": "eh deh-lee-TSYOH-zoh",
+      "pronunciation_notes": "The 'z' in 'delizioso' is voiced (dz sound). Clear vowels throughout — every vowel is pronounced.",
+      "difficulty_sounds": ["dz"],
+      "example_sentence": "Questo risotto è delizioso! Complimenti allo chef.",
+      "tags": ["restaurant", "compliment"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-011",
+      "text": "Il conto, per favore",
+      "translation": "The bill, please",
+      "phonetic_ipa": "il ˈkonto per faˈvore",
+      "phonetic_approx": "eel KOHN-toh pair fah-VOH-ray",
+      "pronunciation_notes": "Simple and essential. Clear vowels, stress on 'KON' in 'conto'.",
+      "difficulty_sounds": [],
+      "example_sentence": "Scusi, il conto per favore.",
+      "tags": ["restaurant", "paying", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-012",
+      "text": "L'antipasto",
+      "translation": "The appetizer",
+      "phonetic_ipa": "lantiˈpasto",
+      "phonetic_approx": "lahn-tee-PAH-stoh",
+      "pronunciation_notes": "Every vowel is clearly pronounced. Stress on 'PA'. The word literally means 'before the meal'.",
+      "difficulty_sounds": [],
+      "example_sentence": "Come antipasto, vorrei la bruschetta.",
+      "tags": ["restaurant", "food", "courses"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-013",
+      "text": "Il secondo piatto",
+      "translation": "The second course (main)",
+      "phonetic_ipa": "il seˈkondo ˈpjatto",
+      "phonetic_approx": "eel say-KOHN-doh PYAHT-toh",
+      "pronunciation_notes": "Double 't' in 'piatto' — hold the T sound longer. This distinguishes it from 'piato' which isn't a word.",
+      "difficulty_sounds": ["tː"],
+      "example_sentence": "Come secondo piatto, prendo il pesce.",
+      "tags": ["restaurant", "food", "courses"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-014",
+      "text": "Una bottiglia di vino rosso",
+      "translation": "A bottle of red wine",
+      "phonetic_ipa": "una botˈtiʎʎa di ˈvino ˈrosso",
+      "phonetic_approx": "OO-nah boht-TEEL-yah dee VEE-noh ROHS-soh",
+      "pronunciation_notes": "'Bottiglia' has both double T and the GL sound. Double S in 'rosso'. Roll the R in 'rosso'.",
+      "difficulty_sounds": ["tː", "ʎ", "sː", "r"],
+      "example_sentence": "Una bottiglia di vino rosso della casa, per favore.",
+      "tags": ["restaurant", "drinks", "wine"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "it-04-015",
+      "text": "Buon appetito!",
+      "translation": "Enjoy your meal!",
+      "phonetic_ipa": "bwɔn appeˈtito",
+      "phonetic_approx": "bwohn ahp-peh-TEE-toh",
+      "pronunciation_notes": "Double P in 'appetito' — hold the P slightly longer. 'Buon' has the 'wo' diphthong.",
+      "difficulty_sounds": ["pː", "wo"],
+      "example_sentence": "Ecco i vostri piatti. Buon appetito!",
+      "tags": ["restaurant", "social"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "it-04-d01",
+      "context": "Ordering at a traditional Italian restaurant",
+      "exchanges": [
+        { "speaker": "waiter", "text": "Buonasera! Avete prenotato?", "translation": "Good evening! Do you have a reservation?", "phonetic_approx": "bwoh-nah-SAY-rah! ah-VAY-tay pray-noh-TAH-toh?" },
+        { "speaker": "you", "text": "Sì, a nome Rossi. Un tavolo per due.", "translation": "Yes, under the name Rossi. A table for two.", "phonetic_approx": "SEE, ah NOH-may ROHS-see. oon TAH-voh-loh pair DOO-ay" },
+        { "speaker": "waiter", "text": "Prego, da questa parte. Ecco il menù.", "translation": "Please, this way. Here's the menu.", "phonetic_approx": "PRAY-goh, dah KWES-tah PAHR-tay. EK-koh eel may-NOO" },
+        { "speaker": "you", "text": "Grazie. Cosa consiglia come primo?", "translation": "Thank you. What do you recommend as a first course?", "phonetic_approx": "GRAH-tsyay. KOH-zah kohn-SEEL-yah KOH-may PREE-moh?" }
+      ],
+      "notes": "Italian meals traditionally have multiple courses: antipasto (starter), primo (first course — pasta or soup), secondo (main — meat or fish), contorno (side dish), and dolce (dessert). You don't have to order all courses."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "it-04-cn01",
+      "title": "The Italian meal structure",
+      "content": "Italian dining follows a sacred structure: antipasto (appetizer), primo (first course — always pasta, risotto, or soup), secondo (second course — meat or fish, served alone), contorno (side vegetables, ordered separately), and dolce (dessert). Italians rarely eat pasta as a side dish to meat — that's a foreign invention. The 'coperto' (cover charge) on your bill is normal and legal. Tipping isn't expected but rounding up is kind. Never ask for parmesan on seafood pasta — it's a serious faux pas."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "unit_number": 4,
+  "language": "french",
+  "title": "At a Restaurant",
+  "pronunciation_focus_summary": "The French R (uvular fricative) — found in restaurant, garçon, addition, and dozens of essential dining words. Made in the back of the throat, not with the tongue tip.",
+  "pronunciation_guide_ids": ["fr_uvular_r", "fr_silent_letters"],
+  "phrases": [
+    {
+      "id": "fr-04-001",
+      "text": "Je voudrais réserver une table",
+      "translation": "I would like to reserve a table",
+      "phonetic_ipa": "ʒə vudʁɛ ʁezɛʁve yn tabl",
+      "phonetic_approx": "zhuh voo-DREH ray-zehr-VAY oon TAHBL",
+      "pronunciation_notes": "Three French R sounds in this phrase. Practice the uvular R — soft gargle in the back of the throat.",
+      "difficulty_sounds": ["ʁ", "y", "ɛ"],
+      "example_sentence": "Je voudrais réserver une table pour ce soir.",
+      "tags": ["restaurant", "reservation", "formal"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-002",
+      "text": "Une table pour deux, s'il vous plaît",
+      "translation": "A table for two, please",
+      "phonetic_ipa": "yn tabl puʁ dø sil vu plɛ",
+      "phonetic_approx": "oon TAHBL poor DUH seel voo PLEH",
+      "pronunciation_notes": "The 'pour' has the French R. 'Deux' has the 'eu' sound — round lips and say 'uh'.",
+      "difficulty_sounds": ["y", "ʁ", "ø"],
+      "example_sentence": "Bonsoir, une table pour deux, s'il vous plaît.",
+      "tags": ["restaurant", "seating", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-003",
+      "text": "La carte, s'il vous plaît",
+      "translation": "The menu, please",
+      "phonetic_ipa": "la kaʁt sil vu plɛ",
+      "phonetic_approx": "lah KAHRT seel voo PLEH",
+      "pronunciation_notes": "The French R in 'carte' is followed by a 't' — practice the R-T transition.",
+      "difficulty_sounds": ["ʁ"],
+      "example_sentence": "Est-ce que je peux avoir la carte, s'il vous plaît ?",
+      "tags": ["restaurant", "ordering", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-004",
+      "text": "Qu'est-ce que vous recommandez ?",
+      "translation": "What do you recommend?",
+      "phonetic_ipa": "kɛs kə vu ʁəkɔmɑ̃de",
+      "phonetic_approx": "kess kuh voo ruh-koh-mahn-DAY",
+      "pronunciation_notes": "The R in 'recommandez' starts the stressed part. The nasal 'an' appears in the middle.",
+      "difficulty_sounds": ["ʁ", "ɑ̃"],
+      "example_sentence": "Qu'est-ce que vous recommandez comme plat du jour ?",
+      "tags": ["restaurant", "ordering", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-005",
+      "text": "Je prends le plat du jour",
+      "translation": "I'll have the daily special",
+      "phonetic_ipa": "ʒə pʁɑ̃ lə pla dy ʒuʁ",
+      "phonetic_approx": "zhuh PRAHN luh PLAH doo ZHOOR",
+      "pronunciation_notes": "The 'ds' in 'prends' is silent. The nasal 'an' sound. 'Jour' ends with the French R.",
+      "difficulty_sounds": ["ʁ", "ɑ̃"],
+      "example_sentence": "Je prends le plat du jour et une carafe d'eau.",
+      "tags": ["restaurant", "ordering"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-006",
+      "text": "L'entrée",
+      "translation": "The starter / appetizer",
+      "phonetic_ipa": "lɑ̃tʁe",
+      "phonetic_approx": "lahn-TRAY",
+      "pronunciation_notes": "The 'en' is a nasal vowel. The 'ée' at the end is a clear 'ay' sound. French R in the middle.",
+      "difficulty_sounds": ["ɑ̃", "ʁ"],
+      "example_sentence": "Comme entrée, je voudrais la soupe à l'oignon.",
+      "tags": ["restaurant", "food", "courses"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-007",
+      "text": "Le plat principal",
+      "translation": "The main course",
+      "phonetic_ipa": "lə pla pʁɛ̃sipal",
+      "phonetic_approx": "luh PLAH prahn-see-PAHL",
+      "pronunciation_notes": "The 'in' in 'principal' is a nasal vowel. Silent 't' in 'plat'. The French R appears once.",
+      "difficulty_sounds": ["ʁ", "ɛ̃"],
+      "example_sentence": "Le plat principal est excellent ici.",
+      "tags": ["restaurant", "food", "courses"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-008",
+      "text": "Le dessert",
+      "translation": "The dessert",
+      "phonetic_ipa": "lə dεsɛʁ",
+      "phonetic_approx": "luh deh-SEHR",
+      "pronunciation_notes": "The final 't' is silent. The French R ends the word. Both 'e' sounds are open.",
+      "difficulty_sounds": ["ʁ", "ɛ"],
+      "example_sentence": "Comme dessert, qu'est-ce que vous avez ?",
+      "tags": ["restaurant", "food", "courses"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-009",
+      "text": "Je suis végétarien(ne)",
+      "translation": "I am vegetarian",
+      "phonetic_ipa": "ʒə sɥi veʒetaʁjɛ̃",
+      "phonetic_approx": "zhuh SWEE vay-zhay-tah-RYEHN",
+      "pronunciation_notes": "The 'ien' at the end is a nasal vowel. Multiple French R sounds. The 'é' is closed E.",
+      "difficulty_sounds": ["ʁ", "ɛ̃", "ʒ"],
+      "example_sentence": "Je suis végétarien, est-ce qu'il y a des options sans viande ?",
+      "tags": ["restaurant", "dietary", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-010",
+      "text": "Une carafe d'eau",
+      "translation": "A carafe of water",
+      "phonetic_ipa": "yn kaʁaf do",
+      "phonetic_approx": "oon kah-RAHF DOH",
+      "pronunciation_notes": "Ordering 'une carafe d'eau' gets you free tap water. The 'af' in 'carafe' — the 'f' IS pronounced.",
+      "difficulty_sounds": ["ʁ", "y"],
+      "example_sentence": "Une carafe d'eau pour la table, s'il vous plaît.",
+      "tags": ["restaurant", "drinks", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-011",
+      "text": "Du vin blanc",
+      "translation": "White wine",
+      "phonetic_ipa": "dy vɛ̃ blɑ̃",
+      "phonetic_approx": "doo VAHN BLAHN",
+      "pronunciation_notes": "Two nasal vowels: 'in' and 'an'. 'Blanc' — the 'c' is silent. The 'bl' cluster is smooth.",
+      "difficulty_sounds": ["ɛ̃", "ɑ̃"],
+      "example_sentence": "Du vin blanc de Bourgogne, s'il vous plaît.",
+      "tags": ["restaurant", "drinks", "wine"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-012",
+      "text": "C'est très bon",
+      "translation": "It's very good",
+      "phonetic_ipa": "sɛ tʁɛ bɔ̃",
+      "phonetic_approx": "seh TREH BOHN",
+      "pronunciation_notes": "The 'on' in 'bon' is a nasal vowel. The 'è' in 'très' is an open E. French R in 'très'.",
+      "difficulty_sounds": ["ɛ", "ʁ", "ɔ̃"],
+      "example_sentence": "C'est très bon ! Mes compliments au chef.",
+      "tags": ["restaurant", "compliment"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-013",
+      "text": "L'addition, s'il vous plaît",
+      "translation": "The bill, please",
+      "phonetic_ipa": "ladisjɔ̃ sil vu plɛ",
+      "phonetic_approx": "lah-dee-SYOHN seel voo PLEH",
+      "pronunciation_notes": "The 'tion' ending is 'syohn' with a nasal vowel — not 'shun' like English.",
+      "difficulty_sounds": ["ɔ̃"],
+      "example_sentence": "Quand vous aurez un moment, l'addition s'il vous plaît.",
+      "tags": ["restaurant", "paying", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-014",
+      "text": "Je suis allergique à...",
+      "translation": "I am allergic to...",
+      "phonetic_ipa": "ʒə sɥiz alɛʁʒik a",
+      "phonetic_approx": "zhuh SWEEZ ah-lehr-ZHEEK ah",
+      "pronunciation_notes": "Liaison: 'suis‿allergique'. Two French R sounds. The 'g' before 'i' is soft ('zh').",
+      "difficulty_sounds": ["ʁ", "ʒ"],
+      "example_sentence": "Je suis allergique aux noix.",
+      "tags": ["restaurant", "dietary", "health", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-04-015",
+      "text": "Bon appétit !",
+      "translation": "Enjoy your meal!",
+      "phonetic_ipa": "bɔn apeti",
+      "phonetic_approx": "bohn ah-pay-TEE",
+      "pronunciation_notes": "Liaison: 'bon‿appétit' — the 'n' links to the 'a'. The final 't' is actually pronounced here (exception!).",
+      "difficulty_sounds": ["ɔ̃"],
+      "example_sentence": "Voilà vos plats. Bon appétit !",
+      "tags": ["restaurant", "social", "greeting"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "fr-04-d01",
+      "context": "Ordering dinner at a restaurant",
+      "exchanges": [
+        { "speaker": "waiter", "text": "Bonsoir ! Vous avez réservé ?", "translation": "Good evening! Do you have a reservation?", "phonetic_approx": "bohn-SWAHR! vooz ah-VAY ray-zehr-VAY?" },
+        { "speaker": "you", "text": "Oui, au nom de Martin. Une table pour deux.", "translation": "Yes, under the name Martin. A table for two.", "phonetic_approx": "WEE, oh NOHN duh mahr-TAHN. oon TAHBL poor DUH" },
+        { "speaker": "waiter", "text": "Très bien. Suivez-moi. Voici la carte.", "translation": "Very well. Follow me. Here's the menu.", "phonetic_approx": "treh BYEHN. swee-VAY mwah. vwah-SEE lah KAHRT" },
+        { "speaker": "you", "text": "Merci. Qu'est-ce que vous recommandez ?", "translation": "Thank you. What do you recommend?", "phonetic_approx": "mehr-SEE. kess kuh voo ruh-koh-mahn-DAY?" }
+      ],
+      "notes": "Making reservations is common for dinner in France. Lunch is often more casual. Say 'Bonsoir' (not 'Bonjour') for evening dining."
+    },
+    {
+      "id": "fr-04-d02",
+      "context": "Discussing dietary needs with the waiter",
+      "exchanges": [
+        { "speaker": "you", "text": "Excusez-moi, je suis végétarien. Qu'est-ce que vous proposez ?", "translation": "Excuse me, I'm vegetarian. What do you suggest?", "phonetic_approx": "ex-koo-ZAY mwah, zhuh SWEE vay-zhay-tah-RYEHN. kess kuh voo proh-poh-ZAY?" },
+        { "speaker": "waiter", "text": "Bien sûr. Nous avons une salade niçoise et un risotto aux légumes.", "translation": "Of course. We have a niçoise salad and a vegetable risotto.", "phonetic_approx": "byehn SOOR. nooz ah-VOHN oon sah-LAHD nee-SWAHZ ay uhn ree-ZOH-toh oh lay-GOOM" },
+        { "speaker": "you", "text": "Le risotto, s'il vous plaît. Et une carafe d'eau.", "translation": "The risotto, please. And a carafe of water.", "phonetic_approx": "luh ree-ZOH-toh seel voo PLEH. ay oon kah-RAHF DOH" }
+      ],
+      "notes": "Vegetarian options are increasingly common in French restaurants. 'Sans viande' (without meat) and 'sans poisson' (without fish) are useful phrases."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "fr-04-cn01",
+      "title": "French dining etiquette",
+      "content": "French dining is a social ritual. Meals are structured: apéritif (pre-dinner drink), entrée (starter), plat principal (main), fromage (cheese), dessert. Lunch break is sacred — typically 12-2pm. Dinner starts later, around 7:30-8pm. Bread is placed directly on the table, not on a plate. Hands should stay above the table (not in your lap). Service is included in the price ('service compris'), so tipping is optional but rounding up is appreciated."
+    }
+  ]
+}

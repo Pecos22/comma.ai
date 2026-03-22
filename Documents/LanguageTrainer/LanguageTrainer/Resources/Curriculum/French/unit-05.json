@@ -1,0 +1,224 @@
+{
+  "unit_number": 5,
+  "language": "french",
+  "title": "Getting Around Town",
+  "pronunciation_focus_summary": "U vs OU — two sounds that English speakers confuse. 'Rue' (street) has the French U (lips forward, tongue front). 'Route' (road) has OU (lips back). Mixing them up changes meaning.",
+  "pronunciation_guide_ids": ["fr_u_vs_ou", "fr_nasal_vowels"],
+  "phrases": [
+    {
+      "id": "fr-05-001",
+      "text": "Où est la station de métro ?",
+      "translation": "Where is the metro station?",
+      "phonetic_ipa": "u ɛ la stasjɔ̃ də metʁo",
+      "phonetic_approx": "oo EH lah stah-SYOHN duh may-TROH",
+      "pronunciation_notes": "'Où' sounds like 'oo'. 'Station' has the nasal ending. 'Métro' has the French R and closed É.",
+      "difficulty_sounds": ["u", "ɔ̃", "ʁ"],
+      "example_sentence": "Excusez-moi, où est la station de métro la plus proche ?",
+      "tags": ["directions", "transport", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-002",
+      "text": "Tournez à gauche",
+      "translation": "Turn left",
+      "phonetic_ipa": "tuʁne a goʃ",
+      "phonetic_approx": "toor-NAY ah GOHSH",
+      "pronunciation_notes": "The 'ou' in 'tournez' is the back vowel. 'Gauche' — the 'au' sounds like 'oh'.",
+      "difficulty_sounds": ["u", "ʁ"],
+      "example_sentence": "Tournez à gauche au prochain feu.",
+      "tags": ["directions", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-003",
+      "text": "Tournez à droite",
+      "translation": "Turn right",
+      "phonetic_ipa": "tuʁne a dʁwat",
+      "phonetic_approx": "toor-NAY ah DRWAHT",
+      "pronunciation_notes": "The 'oi' in 'droite' makes the 'wah' sound. Two French R's close together in 'droite'.",
+      "difficulty_sounds": ["ʁ", "wa"],
+      "example_sentence": "Tournez à droite après la boulangerie.",
+      "tags": ["directions", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-004",
+      "text": "Tout droit",
+      "translation": "Straight ahead",
+      "phonetic_ipa": "tu dʁwa",
+      "phonetic_approx": "too DRWAH",
+      "pronunciation_notes": "'Tout' — the 't' at the end is silent. 'Droit' — the 't' is also silent. 'Oi' = 'wah'.",
+      "difficulty_sounds": ["u", "ʁ", "wa"],
+      "example_sentence": "Continuez tout droit pendant cinq minutes.",
+      "tags": ["directions", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-005",
+      "text": "C'est loin ?",
+      "translation": "Is it far?",
+      "phonetic_ipa": "sɛ lwɛ̃",
+      "phonetic_approx": "seh LWAHN",
+      "pronunciation_notes": "'Loin' has a nasal vowel at the end. The 'oi' is 'wah' but nasalized here.",
+      "difficulty_sounds": ["ɛ̃", "wa"],
+      "example_sentence": "Le musée, c'est loin d'ici ?",
+      "tags": ["directions", "question"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-006",
+      "text": "C'est près d'ici",
+      "translation": "It's near here",
+      "phonetic_ipa": "sɛ pʁɛ disi",
+      "phonetic_approx": "seh PREH dee-SEE",
+      "pronunciation_notes": "The 'è' in 'près' is an open E. French R in 'près'. 'Ici' is simple: ee-SEE.",
+      "difficulty_sounds": ["ʁ", "ɛ"],
+      "example_sentence": "Ne vous inquiétez pas, c'est près d'ici.",
+      "tags": ["directions", "answer"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-007",
+      "text": "La rue",
+      "translation": "The street",
+      "phonetic_ipa": "la ʁy",
+      "phonetic_approx": "lah ROO",
+      "pronunciation_notes": "This is THE key word for U vs OU. 'Rue' has the French U — lips pursed forward, tongue at the front. NOT like English 'roo'.",
+      "difficulty_sounds": ["ʁ", "y"],
+      "example_sentence": "La rue de Rivoli est très connue.",
+      "tags": ["directions", "places"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-008",
+      "text": "La route",
+      "translation": "The road",
+      "phonetic_ipa": "la ʁut",
+      "phonetic_approx": "lah ROOT",
+      "pronunciation_notes": "'Route' has OU — lips rounded but tongue at back. Compare: 'rue' (y) vs 'route' (u). Different mouth positions.",
+      "difficulty_sounds": ["ʁ", "u"],
+      "example_sentence": "Quelle route faut-il prendre ?",
+      "tags": ["directions", "places"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-009",
+      "text": "Je suis perdu(e)",
+      "translation": "I am lost",
+      "phonetic_ipa": "ʒə sɥi pɛʁdy",
+      "phonetic_approx": "zhuh SWEE pehr-DOO",
+      "pronunciation_notes": "The 'u' in 'perdu' is the French U. The French R before 'd'. Essential phrase to know!",
+      "difficulty_sounds": ["ʁ", "y"],
+      "example_sentence": "Excusez-moi, je suis perdu. Où est la gare ?",
+      "tags": ["directions", "essential", "emergency"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-010",
+      "text": "L'arrêt de bus",
+      "translation": "The bus stop",
+      "phonetic_ipa": "laʁɛ də bys",
+      "phonetic_approx": "lah-REH duh BOOS",
+      "pronunciation_notes": "The 'ê' in 'arrêt' is an open E. The French U in 'bus'. Double R in 'arrêt'.",
+      "difficulty_sounds": ["ʁ", "ɛ", "y"],
+      "example_sentence": "L'arrêt de bus est au coin de la rue.",
+      "tags": ["directions", "transport"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-011",
+      "text": "Un billet, s'il vous plaît",
+      "translation": "A ticket, please",
+      "phonetic_ipa": "œ̃ bijɛ sil vu plɛ",
+      "phonetic_approx": "uhn bee-YEH seel voo PLEH",
+      "pronunciation_notes": "The 'ill' in 'billet' makes a 'y' sound — not 'bill-et'. The 'et' ending is 'eh'.",
+      "difficulty_sounds": ["j", "ɛ"],
+      "example_sentence": "Un billet aller-retour pour Lyon, s'il vous plaît.",
+      "tags": ["transport", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-012",
+      "text": "À quelle heure part le train ?",
+      "translation": "What time does the train leave?",
+      "phonetic_ipa": "a kɛl œʁ paʁ lə tʁɛ̃",
+      "phonetic_approx": "ah kel UHR PAHR luh TRAHN",
+      "pronunciation_notes": "'Heure' has the French 'eu' vowel. 'Train' ends with a nasal vowel. Multiple R sounds.",
+      "difficulty_sounds": ["œ", "ʁ", "ɛ̃"],
+      "example_sentence": "À quelle heure part le prochain train pour Paris ?",
+      "tags": ["transport", "question", "time"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-013",
+      "text": "Je cherche...",
+      "translation": "I'm looking for...",
+      "phonetic_ipa": "ʒə ʃɛʁʃ",
+      "phonetic_approx": "zhuh SHEHRSH",
+      "pronunciation_notes": "Two 'ch' (sh) sounds surrounding a French R. Practice: 'sh-R-sh'. The 'e' is open.",
+      "difficulty_sounds": ["ʃ", "ʁ"],
+      "example_sentence": "Je cherche la gare Saint-Lazare.",
+      "tags": ["directions", "essential"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-014",
+      "text": "Pouvez-vous m'indiquer le chemin ?",
+      "translation": "Can you show me the way?",
+      "phonetic_ipa": "puve vu mɛ̃dike lə ʃəmɛ̃",
+      "phonetic_approx": "poo-VAY voo mahn-dee-KAY luh shuh-MAHN",
+      "pronunciation_notes": "The 'in' in 'm'indiquer' and 'chemin' are nasal vowels. 'Chemin' — the 'ch' is 'sh'.",
+      "difficulty_sounds": ["ɛ̃", "ʃ"],
+      "example_sentence": "Excusez-moi, pouvez-vous m'indiquer le chemin pour aller au Louvre ?",
+      "tags": ["directions", "question", "polite"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    },
+    {
+      "id": "fr-05-015",
+      "text": "C'est à cinq minutes à pied",
+      "translation": "It's five minutes on foot",
+      "phonetic_ipa": "sɛt a sɛ̃k minyt a pje",
+      "phonetic_approx": "set ah SAHNK mee-NOOT ah PYAY",
+      "pronunciation_notes": "The 'inq' in 'cinq' — the nasal vowel plus a 'k' sound. 'Pied' — the 'd' is silent.",
+      "difficulty_sounds": ["ɛ̃", "y"],
+      "example_sentence": "Le restaurant, c'est à cinq minutes à pied.",
+      "tags": ["directions", "distance"],
+      "slow_speech_rate": 0.35,
+      "normal_speech_rate": 0.5
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "fr-05-d01",
+      "context": "Asking for directions on the street",
+      "exchanges": [
+        { "speaker": "you", "text": "Excusez-moi, je cherche la station de métro Châtelet.", "translation": "Excuse me, I'm looking for the Châtelet metro station.", "phonetic_approx": "ex-koo-ZAY mwah, zhuh SHEHRSH lah stah-SYOHN duh may-TROH shah-TLEH" },
+        { "speaker": "other", "text": "Bien sûr. Continuez tout droit, puis tournez à gauche à la deuxième rue.", "translation": "Of course. Continue straight ahead, then turn left at the second street.", "phonetic_approx": "byehn SOOR. kohn-tee-NWAY too DRWAH, pwee toor-NAY ah GOHSH ah lah duh-ZYEM ROO" },
+        { "speaker": "you", "text": "C'est loin ?", "translation": "Is it far?", "phonetic_approx": "seh LWAHN?" },
+        { "speaker": "other", "text": "Non, c'est à cinq minutes à pied.", "translation": "No, it's five minutes on foot.", "phonetic_approx": "nohn, set ah SAHNK mee-NOOT ah PYAY" }
+      ],
+      "notes": "Always start with 'Excusez-moi' when approaching a stranger for directions. The French appreciate politeness."
+    }
+  ],
+  "cultural_notes": [
+    {
+      "id": "fr-05-cn01",
+      "title": "Getting around in French cities",
+      "content": "Paris and other major French cities have excellent public transport. The Paris Métro is one of the world's densest networks. Buy a 'carnet' (book of 10 tickets) for savings, or use the Navigo pass for unlimited travel. In smaller cities, buses are the main public transport. When asking for directions, start with 'Excusez-moi' and use 'vous' — the French value politeness highly, and people are generally very willing to help if approached respectfully."
+    }
+  ]
+}
